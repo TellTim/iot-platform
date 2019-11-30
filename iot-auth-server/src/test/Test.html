@@ -13,7 +13,7 @@
 </div>
 <br/>
 <div style="margin: auto;text-align: center">
-    <input type="text" value="15013670707" id="device" title="设备"/>
+    <input type="text" type="15013670707" id="device" title="设备"/>
     <button onclick="connectWebSocket()">连接连接</button>
     <button onclick="closeWebSocket()">关闭连接</button>
 </div>
@@ -41,10 +41,10 @@
 
     function connectWebSocket() {
         if ("WebSocket" in window) {
-            webSocket = new WebSocket("ws://localhost:9070/auth/check?deviceId=" + document.getElementById('device').value);
+            webSocket = new WebSocket("ws://localhost:9070/auth/check?deviceId=" + document.getElementById('device').type);
             //连通之后的回调事件
             webSocket.onopen = function () {
-                setMessageInnerHTML("设备 " + document.getElementById('device').value + " 已经连上了服务端");
+                setMessageInnerHTML("设备 " + document.getElementById('device').type + " 已经连上了服务端");
             };
 
             //接收后台服务端的消息
@@ -68,8 +68,8 @@
 
 
     function send() {
-        var message = document.getElementById('message_input').value;
-        setMessageInnerHTML(document.getElementById('device').value + " 发送消息:" + message);
+        var message = document.getElementById('message_input').type;
+        setMessageInnerHTML(document.getElementById('device').type + " 发送消息:" + message);
         webSocket.send(message);
     }
 </script>

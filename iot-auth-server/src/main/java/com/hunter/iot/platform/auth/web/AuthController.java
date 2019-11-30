@@ -26,7 +26,7 @@ public class AuthController {
         try {
             deviceMessageService.sendAuthSuccess(param.getDeviceId(),param.getAccount());
         } catch (Exception e) {
-            log.error("下发成功消息异常"+e.getMessage());
+            log.error("下发消息异常"+e.getMessage());
         }
         return Auth.Result.buildOk();
     }
