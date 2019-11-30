@@ -1,0 +1,527 @@
+2019-11-30 09:29:23.300  INFO 10220 --- [restartedMain] c.h.iot.platform.auth.AuthApplication    : Starting AuthApplication on Tim-WJ with PID 10220 (E:\workspace\idea\iot-platform\iot-auth-server\target\classes started by tellt in E:\workspace\idea\iot-platform)
+2019-11-30 09:29:23.306  INFO 10220 --- [restartedMain] c.h.iot.platform.auth.AuthApplication    : No active profile set, falling back to default profiles: default
+2019-11-30 09:29:23.348  INFO 10220 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-30 09:29:23.349  INFO 10220 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-30 09:29:24.280  INFO 10220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9070 (http)
+2019-11-30 09:29:24.297  INFO 10220 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-30 09:29:24.298  INFO 10220 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-11-30 09:29:24.305  INFO 10220 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\tellt\AppData\Local\Android\sdk\platform-tools\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Go\bin;C:\Program Files\nodejs\;F:\Tools\androidStudio\android-ndk-r16b\;D:\maven3\bin\;C:\Users\tellt\AppData\Local\Android\Sdk\;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Users\tellt\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\tellt\AppData\Local\Programs\Python\Python37\;C:\Users\tellt\AppData\Local\Microsoft\WindowsApps;d:\go\workspace\bin;C:\Users\tellt\AppData\Roaming\npm;;.]
+2019-11-30 09:29:24.376  INFO 10220 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/auth]   : Initializing Spring embedded WebApplicationContext
+2019-11-30 09:29:24.376  INFO 10220 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1027 ms
+2019-11-30 09:29:24.523  INFO 10220 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-30 09:29:24.609  INFO 10220 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-11-30 09:29:24.640  INFO 10220 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/auth]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-30 09:29:24.640  INFO 10220 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-30 09:29:24.643  INFO 10220 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2019-11-30 09:29:24.644  INFO 10220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9070 (http) with context path '/auth'
+2019-11-30 09:29:24.647  INFO 10220 --- [restartedMain] c.h.iot.platform.auth.AuthApplication    : Started AuthApplication in 1.614 seconds (JVM running for 2.171)
+2019-11-30 09:29:59.856  INFO 10220 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : beforeHandshake deviceId is 15013670707
+2019-11-30 09:29:59.858  INFO 10220 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthHandshakeHandler     : 15013670707 determineUser
+2019-11-30 09:29:59.876  INFO 10220 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : afterHandshake
+2019-11-30 09:29:59.888  INFO 10220 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 有人连接啦  sessionId = 6683c458-6b83-20cb-4649-cf7b9ca2bfb6
+2019-11-30 09:29:59.888  INFO 10220 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 连线!
+2019-11-30 09:29:59.888  INFO 10220 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.manager.SocketManager      : 新添加webSocket连接 15013670707 
+2019-11-30 09:36:40.949  INFO 10220 --- [http-nio-9070-exec-5] c.h.i.p.a.c.w.manager.SocketManager      : 移除webSocket连接 15013670707 
+2019-11-30 09:36:40.950  INFO 10220 --- [http-nio-9070-exec-5] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 断开!
+2019-11-30 09:36:42.506  INFO 10220 --- [http-nio-9070-exec-6] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : beforeHandshake deviceId is 15013670707
+2019-11-30 09:36:42.507  INFO 10220 --- [http-nio-9070-exec-6] c.h.i.p.a.c.w.h.AuthHandshakeHandler     : 15013670707 determineUser
+2019-11-30 09:36:42.508  INFO 10220 --- [http-nio-9070-exec-6] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : afterHandshake
+2019-11-30 09:36:42.509  INFO 10220 --- [http-nio-9070-exec-6] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 有人连接啦  sessionId = be3e2ba1-00f7-4c7f-fef7-4df04b561ddb
+2019-11-30 09:36:42.509  INFO 10220 --- [http-nio-9070-exec-6] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 连线!
+2019-11-30 09:36:42.509  INFO 10220 --- [http-nio-9070-exec-6] c.h.i.p.a.c.w.manager.SocketManager      : 新添加webSocket连接 15013670707 
+2019-11-30 09:36:42.512  INFO 10220 --- [http-nio-9070-exec-7] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 收到15013670707的消息:客户端已连上
+2019-11-30 09:37:21.574  INFO 185176 --- [restartedMain] c.h.iot.platform.auth.AuthApplication    : Starting AuthApplication on Tim-WJ with PID 185176 (E:\workspace\idea\iot-platform\iot-auth-server\target\classes started by tellt in E:\workspace\idea\iot-platform)
+2019-11-30 09:37:21.576  INFO 185176 --- [restartedMain] c.h.iot.platform.auth.AuthApplication    : No active profile set, falling back to default profiles: default
+2019-11-30 09:37:21.600  INFO 185176 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-30 09:37:21.600  INFO 185176 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-30 09:37:22.367  INFO 185176 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9070 (http)
+2019-11-30 09:37:22.387  INFO 185176 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-30 09:37:22.387  INFO 185176 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-11-30 09:37:22.392  INFO 185176 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\tellt\AppData\Local\Android\sdk\platform-tools\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Go\bin;C:\Program Files\nodejs\;F:\Tools\androidStudio\android-ndk-r16b\;D:\maven3\bin\;C:\Users\tellt\AppData\Local\Android\Sdk\;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Users\tellt\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\tellt\AppData\Local\Programs\Python\Python37\;C:\Users\tellt\AppData\Local\Microsoft\WindowsApps;d:\go\workspace\bin;C:\Users\tellt\AppData\Roaming\npm;;.]
+2019-11-30 09:37:22.466  INFO 185176 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/auth]   : Initializing Spring embedded WebApplicationContext
+2019-11-30 09:37:22.466  INFO 185176 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 866 ms
+2019-11-30 09:37:22.634  INFO 185176 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-30 09:37:22.741  INFO 185176 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-11-30 09:37:22.774  INFO 185176 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/auth]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-30 09:37:22.774  INFO 185176 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-30 09:37:22.779  INFO 185176 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2019-11-30 09:37:22.781  INFO 185176 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9070 (http) with context path '/auth'
+2019-11-30 09:37:22.785  INFO 185176 --- [restartedMain] c.h.iot.platform.auth.AuthApplication    : Started AuthApplication in 1.42 seconds (JVM running for 2.14)
+2019-11-30 09:37:34.689  INFO 185176 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : beforeHandshake deviceId is 15013670707
+2019-11-30 09:37:34.691  INFO 185176 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthHandshakeHandler     : 15013670707 determineUser
+2019-11-30 09:37:34.709  INFO 185176 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : afterHandshake
+2019-11-30 09:37:34.723  INFO 185176 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 有人连接啦  sessionId = eba154c1-130a-64aa-b06a-11bf402588bf
+2019-11-30 09:37:34.723  INFO 185176 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 连线!
+2019-11-30 09:37:34.723  INFO 185176 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.manager.SocketManager      : 新添加webSocket连接 15013670707 
+2019-11-30 09:37:34.725  INFO 185176 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 收到15013670707的消息:客户端已连上
+2019-11-30 09:37:46.973  INFO 185176 --- [http-nio-9070-exec-3] c.h.i.platform.auth.web.AuthController   : 确认绑定
+2019-11-30 10:05:17.572  INFO 178932 --- [restartedMain] c.h.iot.platform.auth.AuthApplication    : Starting AuthApplication on Tim-WJ with PID 178932 (E:\workspace\idea\iot-platform\iot-auth-server\target\classes started by tellt in E:\workspace\idea\iot-platform)
+2019-11-30 10:05:17.575  INFO 178932 --- [restartedMain] c.h.iot.platform.auth.AuthApplication    : No active profile set, falling back to default profiles: default
+2019-11-30 10:05:17.610  INFO 178932 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-30 10:05:17.610  INFO 178932 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-30 10:05:18.376  INFO 178932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9070 (http)
+2019-11-30 10:05:18.391  INFO 178932 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-30 10:05:18.391  INFO 178932 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-11-30 10:05:18.396  INFO 178932 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\tellt\AppData\Local\Android\sdk\platform-tools\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Go\bin;C:\Program Files\nodejs\;F:\Tools\androidStudio\android-ndk-r16b\;D:\maven3\bin\;C:\Users\tellt\AppData\Local\Android\Sdk\;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Users\tellt\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\tellt\AppData\Local\Programs\Python\Python37\;C:\Users\tellt\AppData\Local\Microsoft\WindowsApps;d:\go\workspace\bin;C:\Users\tellt\AppData\Roaming\npm;;.]
+2019-11-30 10:05:18.489  INFO 178932 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/auth]   : Initializing Spring embedded WebApplicationContext
+2019-11-30 10:05:18.489  INFO 178932 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 879 ms
+2019-11-30 10:05:18.631  INFO 178932 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-30 10:05:18.720  INFO 178932 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-11-30 10:05:18.748  INFO 178932 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/auth]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-30 10:05:18.748  INFO 178932 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-30 10:05:18.751  INFO 178932 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2019-11-30 10:05:18.752  INFO 178932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9070 (http) with context path '/auth'
+2019-11-30 10:05:18.755  INFO 178932 --- [restartedMain] c.h.iot.platform.auth.AuthApplication    : Started AuthApplication in 1.459 seconds (JVM running for 2.075)
+2019-11-30 10:05:45.994  INFO 178932 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : beforeHandshake deviceId is 15013670707
+2019-11-30 10:05:46.002 ERROR 178932 --- [http-nio-9070-exec-1] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/auth] threw exception [Request processing failed; nested exception is org.springframework.web.socket.server.HandshakeFailureException: Uncaught failure for request http://localhost:9070/auth/check?deviceId=15013670707; nested exception is java.lang.NullPointerException] with root cause
+
+java.lang.NullPointerException: null
+	at com.hunter.iot.platform.auth.config.websocket.manager.SocketManager.get(SocketManager.java:25) ~[classes/:na]
+	at com.hunter.iot.platform.auth.domain.repo.impl.WebSocketSessionCacheRepo.get(WebSocketSessionCacheRepo.java:17) ~[classes/:na]
+	at com.hunter.iot.platform.auth.config.websocket.handshake.AuthHandshakeInterceptor.beforeHandshake(AuthHandshakeInterceptor.java:31) ~[classes/:na]
+	at org.springframework.web.socket.server.support.HandshakeInterceptorChain.applyBeforeHandshake(HandshakeInterceptorChain.java:60) ~[spring-websocket-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.socket.server.support.WebSocketHttpRequestHandler.handleRequest(WebSocketHttpRequestHandler.java:164) ~[spring-websocket-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:53) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+
+2019-11-30 10:06:42.695  INFO 186656 --- [restartedMain] c.h.iot.platform.auth.AuthApplication    : Starting AuthApplication on Tim-WJ with PID 186656 (E:\workspace\idea\iot-platform\iot-auth-server\target\classes started by tellt in E:\workspace\idea\iot-platform)
+2019-11-30 10:06:42.697  INFO 186656 --- [restartedMain] c.h.iot.platform.auth.AuthApplication    : No active profile set, falling back to default profiles: default
+2019-11-30 10:06:42.730  INFO 186656 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-30 10:06:42.730  INFO 186656 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-30 10:06:43.583  INFO 186656 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9070 (http)
+2019-11-30 10:06:43.598  INFO 186656 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-30 10:06:43.598  INFO 186656 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-11-30 10:06:43.603  INFO 186656 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\tellt\AppData\Local\Android\sdk\platform-tools\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Go\bin;C:\Program Files\nodejs\;F:\Tools\androidStudio\android-ndk-r16b\;D:\maven3\bin\;C:\Users\tellt\AppData\Local\Android\Sdk\;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Users\tellt\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\tellt\AppData\Local\Programs\Python\Python37\;C:\Users\tellt\AppData\Local\Microsoft\WindowsApps;d:\go\workspace\bin;C:\Users\tellt\AppData\Roaming\npm;;.]
+2019-11-30 10:06:43.673  INFO 186656 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/auth]   : Initializing Spring embedded WebApplicationContext
+2019-11-30 10:06:43.674  INFO 186656 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 943 ms
+2019-11-30 10:06:43.818  INFO 186656 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-30 10:06:43.915  INFO 186656 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-11-30 10:06:43.947  INFO 186656 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/auth]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-30 10:06:43.947  INFO 186656 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-30 10:06:43.950  INFO 186656 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2019-11-30 10:06:43.952  INFO 186656 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9070 (http) with context path '/auth'
+2019-11-30 10:06:43.954  INFO 186656 --- [restartedMain] c.h.iot.platform.auth.AuthApplication    : Started AuthApplication in 1.516 seconds (JVM running for 2.054)
+2019-11-30 10:06:50.243  INFO 186656 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : beforeHandshake deviceId is 15013670707
+2019-11-30 10:06:50.245  INFO 186656 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthHandshakeHandler     : 15013670707 determineUser
+2019-11-30 10:06:50.265  INFO 186656 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : afterHandshake
+2019-11-30 10:06:50.277  INFO 186656 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 有人连接啦  sessionId = 87fc7e49-8451-b913-3b9a-75c49e14f8e9
+2019-11-30 10:06:50.278  INFO 186656 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 连线!
+2019-11-30 10:06:50.278  INFO 186656 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.manager.SocketManager      : 新添加webSocket连接 15013670707 
+2019-11-30 10:06:50.280  INFO 186656 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 收到15013670707的消息:客户端已连上
+2019-11-30 10:06:58.746  INFO 186656 --- [http-nio-9070-exec-3] c.h.i.p.a.c.w.manager.SocketManager      : 获取session 15013670707,sessionId is 87fc7e49-8451-b913-3b9a-75c49e14f8e9 
+2019-11-30 10:19:02.235  INFO 177052 --- [restartedMain] c.h.iot.platform.auth.AuthApplication    : Starting AuthApplication on Tim-WJ with PID 177052 (E:\workspace\idea\iot-platform\iot-auth-server\target\classes started by tellt in E:\workspace\idea\iot-platform)
+2019-11-30 10:19:02.237  INFO 177052 --- [restartedMain] c.h.iot.platform.auth.AuthApplication    : No active profile set, falling back to default profiles: default
+2019-11-30 10:19:02.276  INFO 177052 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-30 10:19:02.277  INFO 177052 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-30 10:19:03.151  INFO 177052 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9070 (http)
+2019-11-30 10:19:03.165  INFO 177052 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-30 10:19:03.165  INFO 177052 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-11-30 10:19:03.170  INFO 177052 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\tellt\AppData\Local\Android\sdk\platform-tools\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Go\bin;C:\Program Files\nodejs\;F:\Tools\androidStudio\android-ndk-r16b\;D:\maven3\bin\;C:\Users\tellt\AppData\Local\Android\Sdk\;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Users\tellt\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\tellt\AppData\Local\Programs\Python\Python37\;C:\Users\tellt\AppData\Local\Microsoft\WindowsApps;d:\go\workspace\bin;C:\Users\tellt\AppData\Roaming\npm;;.]
+2019-11-30 10:19:03.251  INFO 177052 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/auth]   : Initializing Spring embedded WebApplicationContext
+2019-11-30 10:19:03.251  INFO 177052 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 974 ms
+2019-11-30 10:19:03.384  INFO 177052 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-30 10:19:03.467  INFO 177052 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-11-30 10:19:03.497  INFO 177052 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/auth]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-30 10:19:03.497  INFO 177052 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-30 10:19:03.501  INFO 177052 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2019-11-30 10:19:03.503  INFO 177052 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9070 (http) with context path '/auth'
+2019-11-30 10:19:03.505  INFO 177052 --- [restartedMain] c.h.iot.platform.auth.AuthApplication    : Started AuthApplication in 1.534 seconds (JVM running for 2.062)
+2019-11-30 10:19:17.583  INFO 177052 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : beforeHandshake deviceId is 15013670707
+2019-11-30 10:19:17.585  INFO 177052 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthHandshakeHandler     : 15013670707 determineUser
+2019-11-30 10:19:17.601  INFO 177052 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : afterHandshake
+2019-11-30 10:19:17.615  INFO 177052 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 有人连接啦  sessionId = 6f52137f-1f97-11ea-0ed3-13f7532d5dda
+2019-11-30 10:19:17.615  INFO 177052 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 连线!
+2019-11-30 10:19:17.615  INFO 177052 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.manager.SocketManager      : 新添加webSocket连接 15013670707 
+2019-11-30 10:19:17.617  INFO 177052 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 收到15013670707的消息:客户端已连上
+2019-11-30 10:21:26.054  INFO 177052 --- [http-nio-9070-exec-2] c.h.i.p.a.c.w.manager.SocketManager      : 移除webSocket连接 15013670707 
+2019-11-30 10:21:26.054  INFO 177052 --- [http-nio-9070-exec-2] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 断开!
+2019-11-30 10:21:27.226  INFO 177052 --- [http-nio-9070-exec-3] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : beforeHandshake deviceId is 15013670707
+2019-11-30 10:21:27.226  INFO 177052 --- [http-nio-9070-exec-3] c.h.i.p.a.c.w.h.AuthHandshakeHandler     : 15013670707 determineUser
+2019-11-30 10:21:27.230  INFO 177052 --- [http-nio-9070-exec-3] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : afterHandshake
+2019-11-30 10:21:27.232  INFO 177052 --- [http-nio-9070-exec-3] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 有人连接啦  sessionId = 7443b424-6b79-39ed-5a29-1dd868e1f043
+2019-11-30 10:21:27.232  INFO 177052 --- [http-nio-9070-exec-3] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 连线!
+2019-11-30 10:21:27.232  INFO 177052 --- [http-nio-9070-exec-3] c.h.i.p.a.c.w.manager.SocketManager      : 新添加webSocket连接 15013670707 
+2019-11-30 10:21:27.235  INFO 177052 --- [http-nio-9070-exec-6] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 收到15013670707的消息:客户端已连上
+2019-11-30 10:21:44.138  INFO 177052 --- [http-nio-9070-exec-5] c.h.i.p.a.c.w.manager.SocketManager      : 移除webSocket连接 15013670707 
+2019-11-30 10:21:44.138  INFO 177052 --- [http-nio-9070-exec-5] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 断开!
+2019-11-30 10:21:45.065  INFO 177052 --- [http-nio-9070-exec-4] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : beforeHandshake deviceId is 15013670707
+2019-11-30 10:21:45.065  INFO 177052 --- [http-nio-9070-exec-4] c.h.i.p.a.c.w.h.AuthHandshakeHandler     : 15013670707 determineUser
+2019-11-30 10:21:45.066  INFO 177052 --- [http-nio-9070-exec-4] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : afterHandshake
+2019-11-30 10:21:45.067  INFO 177052 --- [http-nio-9070-exec-4] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 有人连接啦  sessionId = 39818da1-1175-77e7-dd06-507ab5290d67
+2019-11-30 10:21:45.067  INFO 177052 --- [http-nio-9070-exec-4] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 连线!
+2019-11-30 10:21:45.067  INFO 177052 --- [http-nio-9070-exec-4] c.h.i.p.a.c.w.manager.SocketManager      : 新添加webSocket连接 15013670707 
+2019-11-30 10:21:45.070  INFO 177052 --- [http-nio-9070-exec-7] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 收到15013670707的消息:客户端已连上
+2019-11-30 10:22:12.176  INFO 177052 --- [http-nio-9070-exec-8] c.h.i.p.a.c.w.manager.SocketManager      : 移除webSocket连接 15013670707 
+2019-11-30 10:22:12.177  INFO 177052 --- [http-nio-9070-exec-8] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 断开!
+2019-11-30 10:22:14.937  INFO 177052 --- [http-nio-9070-exec-9] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : beforeHandshake deviceId is 15013670707
+2019-11-30 10:22:14.938  INFO 177052 --- [http-nio-9070-exec-9] c.h.i.p.a.c.w.h.AuthHandshakeHandler     : 15013670707 determineUser
+2019-11-30 10:22:14.939  INFO 177052 --- [http-nio-9070-exec-9] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : afterHandshake
+2019-11-30 10:22:14.939  INFO 177052 --- [http-nio-9070-exec-9] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 有人连接啦  sessionId = 5ea94741-a3e7-0972-31e7-8e03d8ace1ff
+2019-11-30 10:22:14.940  INFO 177052 --- [http-nio-9070-exec-9] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 连线!
+2019-11-30 10:22:14.940  INFO 177052 --- [http-nio-9070-exec-9] c.h.i.p.a.c.w.manager.SocketManager      : 新添加webSocket连接 15013670707 
+2019-11-30 10:22:14.942  INFO 177052 --- [http-nio-9070-exec-10] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 收到15013670707的消息:客户端已连上
+2019-11-30 10:24:26.283  INFO 177052 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.manager.SocketManager      : 移除webSocket连接 15013670707 
+2019-11-30 10:24:26.284  INFO 177052 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 断开!
+2019-11-30 10:24:27.674  INFO 177052 --- [http-nio-9070-exec-2] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : beforeHandshake deviceId is 15013670707
+2019-11-30 10:24:27.674  INFO 177052 --- [http-nio-9070-exec-2] c.h.i.p.a.c.w.h.AuthHandshakeHandler     : 15013670707 determineUser
+2019-11-30 10:24:27.675  INFO 177052 --- [http-nio-9070-exec-2] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : afterHandshake
+2019-11-30 10:24:27.676  INFO 177052 --- [http-nio-9070-exec-2] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 有人连接啦  sessionId = 230349b0-bcc7-ddd8-89f1-be27e51ded61
+2019-11-30 10:24:27.676  INFO 177052 --- [http-nio-9070-exec-2] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 连线!
+2019-11-30 10:24:27.676  INFO 177052 --- [http-nio-9070-exec-2] c.h.i.p.a.c.w.manager.SocketManager      : 新添加webSocket连接 15013670707 
+2019-11-30 10:24:27.679  INFO 177052 --- [http-nio-9070-exec-3] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 收到15013670707的消息:客户端已连上
+2019-11-30 11:24:49.108  INFO 189412 --- [restartedMain] c.h.iot.platform.auth.AuthApplication    : Starting AuthApplication on Tim-WJ with PID 189412 (E:\workspace\idea\iot-platform\iot-auth-server\target\classes started by tellt in E:\workspace\idea\iot-platform)
+2019-11-30 11:24:49.111  INFO 189412 --- [restartedMain] c.h.iot.platform.auth.AuthApplication    : No active profile set, falling back to default profiles: default
+2019-11-30 11:24:49.147  INFO 189412 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-30 11:24:49.148  INFO 189412 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-30 11:24:50.135  INFO 189412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9070 (http)
+2019-11-30 11:24:50.149  INFO 189412 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-30 11:24:50.150  INFO 189412 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-11-30 11:24:50.155  INFO 189412 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\tellt\AppData\Local\Android\sdk\platform-tools\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Go\bin;C:\Program Files\nodejs\;F:\Tools\androidStudio\android-ndk-r16b\;D:\maven3\bin\;C:\Users\tellt\AppData\Local\Android\Sdk\;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Users\tellt\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\tellt\AppData\Local\Programs\Python\Python37\;C:\Users\tellt\AppData\Local\Microsoft\WindowsApps;d:\go\workspace\bin;C:\Users\tellt\AppData\Roaming\npm;;.]
+2019-11-30 11:24:50.222  INFO 189412 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/auth]   : Initializing Spring embedded WebApplicationContext
+2019-11-30 11:24:50.222  INFO 189412 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1074 ms
+2019-11-30 11:24:50.372  INFO 189412 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-30 11:24:50.460  INFO 189412 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-11-30 11:24:50.491  INFO 189412 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/auth]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-30 11:24:50.491  INFO 189412 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-30 11:24:50.495  INFO 189412 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2019-11-30 11:24:50.496  INFO 189412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9070 (http) with context path '/auth'
+2019-11-30 11:24:50.498  INFO 189412 --- [restartedMain] c.h.iot.platform.auth.AuthApplication    : Started AuthApplication in 1.72 seconds (JVM running for 2.25)
+2019-11-30 11:58:12.459  INFO 189412 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : beforeHandshake deviceId is 15013670707
+2019-11-30 11:58:12.467  INFO 189412 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthHandshakeHandler     : 15013670707 determineUser
+2019-11-30 11:58:12.487  INFO 189412 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : afterHandshake
+2019-11-30 11:58:12.500  INFO 189412 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 有人连接啦  sessionId = 6ce3ad87-6a3d-f942-9c5b-cb00fe26058f
+2019-11-30 11:58:12.501  INFO 189412 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 连线!
+2019-11-30 11:58:12.501  INFO 189412 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.manager.SocketManager      : 新添加webSocket连接 15013670707 
+2019-11-30 11:58:12.502  INFO 189412 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 收到15013670707的消息:客户端已连上
+2019-11-30 11:59:14.220  INFO 189412 --- [http-nio-9070-exec-2] c.h.i.p.a.c.w.manager.SocketManager      : 移除webSocket连接 15013670707 
+2019-11-30 11:59:14.222  INFO 189412 --- [http-nio-9070-exec-2] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 断开!
+2019-11-30 11:59:15.585  INFO 189412 --- [http-nio-9070-exec-3] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : beforeHandshake deviceId is 15013670707
+2019-11-30 11:59:15.586  INFO 189412 --- [http-nio-9070-exec-3] c.h.i.p.a.c.w.h.AuthHandshakeHandler     : 15013670707 determineUser
+2019-11-30 11:59:15.590  INFO 189412 --- [http-nio-9070-exec-3] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : afterHandshake
+2019-11-30 11:59:15.592  INFO 189412 --- [http-nio-9070-exec-3] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 有人连接啦  sessionId = f887dae6-2765-bcd4-cbf7-0a28a27122bb
+2019-11-30 11:59:15.592  INFO 189412 --- [http-nio-9070-exec-3] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 连线!
+2019-11-30 11:59:15.592  INFO 189412 --- [http-nio-9070-exec-3] c.h.i.p.a.c.w.manager.SocketManager      : 新添加webSocket连接 15013670707 
+2019-11-30 11:59:15.595  INFO 189412 --- [http-nio-9070-exec-4] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 收到15013670707的消息:客户端已连上
+2019-11-30 11:59:53.099  INFO 189412 --- [http-nio-9070-exec-6] c.h.i.p.a.c.w.manager.SocketManager      : 获取session 15013670707,sessionId is f887dae6-2765-bcd4-cbf7-0a28a27122bb 
+2019-11-30 12:05:09.899  INFO 189412 --- [http-nio-9070-exec-8] c.h.i.p.a.c.w.manager.SocketManager      : 移除webSocket连接 15013670707 
+2019-11-30 12:05:09.901  INFO 189412 --- [http-nio-9070-exec-8] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 断开!
+2019-11-30 12:05:20.992  INFO 189412 --- [http-nio-9070-exec-9] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : beforeHandshake deviceId is /用户a
+2019-11-30 12:05:20.994  INFO 189412 --- [http-nio-9070-exec-9] c.h.i.p.a.c.w.h.AuthHandshakeHandler     : /用户a determineUser
+2019-11-30 12:05:20.998  INFO 189412 --- [http-nio-9070-exec-9] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : afterHandshake
+2019-11-30 12:05:21.002  INFO 189412 --- [http-nio-9070-exec-9] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 有人连接啦  sessionId = fd7b0313-5109-3681-6b97-b84a8461b1fd
+2019-11-30 12:05:21.002  INFO 189412 --- [http-nio-9070-exec-9] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : /用户a 连线!
+2019-11-30 12:05:21.002  INFO 189412 --- [http-nio-9070-exec-9] c.h.i.p.a.c.w.manager.SocketManager      : 新添加webSocket连接 /用户a 
+2019-11-30 12:05:21.223  INFO 189412 --- [http-nio-9070-exec-10] c.h.i.p.a.c.w.manager.SocketManager      : 移除webSocket连接 /用户a 
+2019-11-30 12:05:21.224  INFO 189412 --- [http-nio-9070-exec-10] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : /用户a 断开!
+2019-11-30 12:05:21.242  INFO 189412 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : beforeHandshake deviceId is /用户a
+2019-11-30 12:05:21.243  INFO 189412 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthHandshakeHandler     : /用户a determineUser
+2019-11-30 12:05:21.244  INFO 189412 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : afterHandshake
+2019-11-30 12:05:21.245  INFO 189412 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 有人连接啦  sessionId = 68bbaf52-d6ed-707b-0358-bcb7821b31c2
+2019-11-30 12:05:21.245  INFO 189412 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : /用户a 连线!
+2019-11-30 12:05:21.245  INFO 189412 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.manager.SocketManager      : 新添加webSocket连接 /用户a 
+2019-11-30 12:05:32.819  INFO 189412 --- [http-nio-9070-exec-2] c.h.i.p.a.c.w.manager.SocketManager      : 移除webSocket连接 /用户a 
+2019-11-30 12:05:32.819  INFO 189412 --- [http-nio-9070-exec-2] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : /用户a 断开!
+2019-11-30 12:05:49.944  INFO 189412 --- [http-nio-9070-exec-3] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : beforeHandshake deviceId is /用户a
+2019-11-30 12:05:49.945  INFO 189412 --- [http-nio-9070-exec-3] c.h.i.p.a.c.w.h.AuthHandshakeHandler     : /用户a determineUser
+2019-11-30 12:05:49.947  INFO 189412 --- [http-nio-9070-exec-3] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : afterHandshake
+2019-11-30 12:05:49.949  INFO 189412 --- [http-nio-9070-exec-3] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 有人连接啦  sessionId = cd26da73-5a75-edd5-32a8-2d2bbffbe95c
+2019-11-30 12:05:49.949  INFO 189412 --- [http-nio-9070-exec-3] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : /用户a 连线!
+2019-11-30 12:05:49.949  INFO 189412 --- [http-nio-9070-exec-3] c.h.i.p.a.c.w.manager.SocketManager      : 新添加webSocket连接 /用户a 
+2019-11-30 12:08:38.281  INFO 189412 --- [http-nio-9070-exec-4] c.h.i.p.a.c.w.manager.SocketManager      : 移除webSocket连接 /用户a 
+2019-11-30 12:08:38.282  INFO 189412 --- [http-nio-9070-exec-4] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : /用户a 断开!
+2019-11-30 12:09:37.829  INFO 189412 --- [http-nio-9070-exec-5] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : beforeHandshake deviceId is /用户a
+2019-11-30 12:09:37.829  INFO 189412 --- [http-nio-9070-exec-5] c.h.i.p.a.c.w.h.AuthHandshakeHandler     : /用户a determineUser
+2019-11-30 12:09:37.830  INFO 189412 --- [http-nio-9070-exec-5] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : afterHandshake
+2019-11-30 12:09:37.831  INFO 189412 --- [http-nio-9070-exec-5] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 有人连接啦  sessionId = 9ede8810-5a2e-f4de-07b8-779d5ee1cc5f
+2019-11-30 12:09:37.831  INFO 189412 --- [http-nio-9070-exec-5] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : /用户a 连线!
+2019-11-30 12:09:37.831  INFO 189412 --- [http-nio-9070-exec-5] c.h.i.p.a.c.w.manager.SocketManager      : 新添加webSocket连接 /用户a 
+2019-11-30 12:09:40.491  INFO 189412 --- [http-nio-9070-exec-6] c.h.i.p.a.c.w.manager.SocketManager      : 移除webSocket连接 /用户a 
+2019-11-30 12:09:40.491  INFO 189412 --- [http-nio-9070-exec-6] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : /用户a 断开!
+2019-11-30 12:16:28.754  INFO 189412 --- [http-nio-9070-exec-7] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : beforeHandshake deviceId is /15013670707
+2019-11-30 12:16:28.754  INFO 189412 --- [http-nio-9070-exec-7] c.h.i.p.a.c.w.h.AuthHandshakeHandler     : /15013670707 determineUser
+2019-11-30 12:16:28.755  INFO 189412 --- [http-nio-9070-exec-7] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : afterHandshake
+2019-11-30 12:16:28.756  INFO 189412 --- [http-nio-9070-exec-7] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 有人连接啦  sessionId = 9a9da220-948e-a1e2-901a-e4e48df2143c
+2019-11-30 12:16:28.756  INFO 189412 --- [http-nio-9070-exec-7] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : /15013670707 连线!
+2019-11-30 12:16:28.756  INFO 189412 --- [http-nio-9070-exec-7] c.h.i.p.a.c.w.manager.SocketManager      : 新添加webSocket连接 /15013670707 
+2019-11-30 12:19:05.405  INFO 189412 --- [http-nio-9070-exec-8] c.h.i.p.a.c.w.manager.SocketManager      : 移除webSocket连接 /15013670707 
+2019-11-30 12:19:05.406  INFO 189412 --- [http-nio-9070-exec-8] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : /15013670707 断开!
+2019-11-30 12:19:07.919  INFO 189412 --- [http-nio-9070-exec-9] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : beforeHandshake deviceId is 15013670707
+2019-11-30 12:19:07.920  INFO 189412 --- [http-nio-9070-exec-9] c.h.i.p.a.c.w.h.AuthHandshakeHandler     : 15013670707 determineUser
+2019-11-30 12:19:07.921  INFO 189412 --- [http-nio-9070-exec-9] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : afterHandshake
+2019-11-30 12:19:07.922  INFO 189412 --- [http-nio-9070-exec-9] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 有人连接啦  sessionId = 82c69a4d-a680-6719-b06c-3573c51c7392
+2019-11-30 12:19:07.922  INFO 189412 --- [http-nio-9070-exec-9] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 连线!
+2019-11-30 12:19:07.922  INFO 189412 --- [http-nio-9070-exec-9] c.h.i.p.a.c.w.manager.SocketManager      : 新添加webSocket连接 15013670707 
+2019-11-30 12:19:12.217  INFO 189412 --- [http-nio-9070-exec-10] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : beforeHandshake deviceId is 15013670707
+2019-11-30 12:19:12.217  INFO 189412 --- [http-nio-9070-exec-10] c.h.i.p.a.c.w.manager.SocketManager      : 获取session 15013670707,sessionId is 82c69a4d-a680-6719-b06c-3573c51c7392 
+2019-11-30 12:19:12.217  INFO 189412 --- [http-nio-9070-exec-10] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : session 未断开,收到重复请求 deviceId is 15013670707
+2019-11-30 12:19:12.217  INFO 189412 --- [http-nio-9070-exec-10] c.h.i.p.a.c.w.manager.SocketManager      : 移除webSocket连接 15013670707 
+2019-11-30 12:19:12.217  INFO 189412 --- [http-nio-9070-exec-10] c.h.i.p.a.c.w.manager.SocketManager      : 移除webSocket连接 15013670707 
+2019-11-30 12:19:12.217  INFO 189412 --- [http-nio-9070-exec-10] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 断开!
+2019-11-30 12:19:12.218  INFO 189412 --- [http-nio-9070-exec-10] c.h.i.p.a.c.w.h.AuthHandshakeHandler     : 15013670707 determineUser
+2019-11-30 12:19:12.219  INFO 189412 --- [http-nio-9070-exec-10] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : afterHandshake
+2019-11-30 12:19:12.220  INFO 189412 --- [http-nio-9070-exec-10] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 有人连接啦  sessionId = 1219e460-f5a7-6726-3515-45894fd53a52
+2019-11-30 12:19:12.220  INFO 189412 --- [http-nio-9070-exec-10] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 连线!
+2019-11-30 12:19:12.220  INFO 189412 --- [http-nio-9070-exec-10] c.h.i.p.a.c.w.manager.SocketManager      : 新添加webSocket连接 15013670707 
+2019-11-30 12:19:50.081  INFO 187332 --- [restartedMain] c.h.iot.platform.auth.AuthApplication    : Starting AuthApplication on Tim-WJ with PID 187332 (E:\workspace\idea\iot-platform\iot-auth-server\target\classes started by tellt in E:\workspace\idea\iot-platform)
+2019-11-30 12:19:50.083  INFO 187332 --- [restartedMain] c.h.iot.platform.auth.AuthApplication    : No active profile set, falling back to default profiles: default
+2019-11-30 12:19:50.106  INFO 187332 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-30 12:19:50.106  INFO 187332 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-30 12:19:51.589  INFO 187332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9070 (http)
+2019-11-30 12:19:51.604  INFO 187332 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-30 12:19:51.604  INFO 187332 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-11-30 12:19:51.610  INFO 187332 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\tellt\AppData\Local\Android\sdk\platform-tools\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Go\bin;C:\Program Files\nodejs\;F:\Tools\androidStudio\android-ndk-r16b\;D:\maven3\bin\;C:\Users\tellt\AppData\Local\Android\Sdk\;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Users\tellt\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\tellt\AppData\Local\Programs\Python\Python37\;C:\Users\tellt\AppData\Local\Microsoft\WindowsApps;d:\go\workspace\bin;C:\Users\tellt\AppData\Roaming\npm;;.]
+2019-11-30 12:19:51.678  INFO 187332 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/auth]   : Initializing Spring embedded WebApplicationContext
+2019-11-30 12:19:51.678  INFO 187332 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1572 ms
+2019-11-30 12:19:51.824  INFO 187332 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-30 12:19:51.913  INFO 187332 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-11-30 12:19:51.942  INFO 187332 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/auth]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-30 12:19:51.942  INFO 187332 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-30 12:19:51.945  INFO 187332 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2019-11-30 12:19:51.947  INFO 187332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9070 (http) with context path '/auth'
+2019-11-30 12:19:51.949  INFO 187332 --- [restartedMain] c.h.iot.platform.auth.AuthApplication    : Started AuthApplication in 2.08 seconds (JVM running for 8.478)
+2019-11-30 12:20:00.817  INFO 187332 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : beforeHandshake deviceId is 15013670707
+2019-11-30 12:20:00.819  INFO 187332 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthHandshakeHandler     : 15013670707 determineUser
+2019-11-30 12:20:00.836  INFO 187332 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : afterHandshake
+2019-11-30 12:20:00.891  INFO 187332 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 有人连接啦  sessionId = e18db754-00a0-c986-2711-ca38bff79b75
+2019-11-30 12:20:00.891  INFO 187332 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 连线!
+2019-11-30 12:20:00.891  INFO 187332 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.manager.SocketManager      : 新添加webSocket连接 15013670707 
+2019-11-30 12:21:09.452  INFO 187332 --- [http-nio-9070-exec-2] c.h.i.p.a.c.w.manager.SocketManager      : 移除webSocket连接 15013670707 
+2019-11-30 12:21:09.453  INFO 187332 --- [http-nio-9070-exec-2] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 断开!
+2019-11-30 12:21:10.712  INFO 187332 --- [http-nio-9070-exec-3] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : beforeHandshake deviceId is 15013670707
+2019-11-30 12:21:10.713  INFO 187332 --- [http-nio-9070-exec-3] c.h.i.p.a.c.w.h.AuthHandshakeHandler     : 15013670707 determineUser
+2019-11-30 12:21:10.716  INFO 187332 --- [http-nio-9070-exec-3] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : afterHandshake
+2019-11-30 12:21:10.717  INFO 187332 --- [http-nio-9070-exec-3] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 有人连接啦  sessionId = ad83beea-a429-d4b3-f8fa-c68096c3f7fa
+2019-11-30 12:21:10.718  INFO 187332 --- [http-nio-9070-exec-3] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 连线!
+2019-11-30 12:21:10.718  INFO 187332 --- [http-nio-9070-exec-3] c.h.i.p.a.c.w.manager.SocketManager      : 新添加webSocket连接 15013670707 
+2019-11-30 12:21:16.302  INFO 187332 --- [http-nio-9070-exec-5] c.h.i.p.a.c.w.manager.SocketManager      : 移除webSocket连接 15013670707 
+2019-11-30 12:21:16.302  INFO 187332 --- [http-nio-9070-exec-5] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 断开!
+2019-11-30 12:21:59.916  INFO 187332 --- [http-nio-9070-exec-4] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : beforeHandshake deviceId is 15013670707
+2019-11-30 12:21:59.916  INFO 187332 --- [http-nio-9070-exec-4] c.h.i.p.a.c.w.h.AuthHandshakeHandler     : 15013670707 determineUser
+2019-11-30 12:21:59.919  INFO 187332 --- [http-nio-9070-exec-4] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : afterHandshake
+2019-11-30 12:21:59.920  INFO 187332 --- [http-nio-9070-exec-4] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 有人连接啦  sessionId = a2f5ea8c-95ac-691d-214d-6a4be8d678ab
+2019-11-30 12:21:59.920  INFO 187332 --- [http-nio-9070-exec-4] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 连线!
+2019-11-30 12:21:59.921  INFO 187332 --- [http-nio-9070-exec-4] c.h.i.p.a.c.w.manager.SocketManager      : 新添加webSocket连接 15013670707 
+2019-11-30 12:22:06.316  INFO 187332 --- [http-nio-9070-exec-7] c.h.i.p.a.c.w.manager.SocketManager      : 获取session 15013670707,sessionId is a2f5ea8c-95ac-691d-214d-6a4be8d678ab 
+2019-11-30 12:23:03.730  INFO 160796 --- [restartedMain] c.h.iot.platform.auth.AuthApplication    : Starting AuthApplication on Tim-WJ with PID 160796 (E:\workspace\idea\iot-platform\iot-auth-server\target\classes started by tellt in E:\workspace\idea\iot-platform)
+2019-11-30 12:23:03.734  INFO 160796 --- [restartedMain] c.h.iot.platform.auth.AuthApplication    : No active profile set, falling back to default profiles: default
+2019-11-30 12:23:03.791  INFO 160796 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-30 12:23:03.792  INFO 160796 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-30 12:23:04.795  INFO 160796 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9070 (http)
+2019-11-30 12:23:04.816  INFO 160796 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-30 12:23:04.816  INFO 160796 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-11-30 12:23:04.822  INFO 160796 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\tellt\AppData\Local\Android\sdk\platform-tools\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Go\bin;C:\Program Files\nodejs\;F:\Tools\androidStudio\android-ndk-r16b\;D:\maven3\bin\;C:\Users\tellt\AppData\Local\Android\Sdk\;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Users\tellt\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\tellt\AppData\Local\Programs\Python\Python37\;C:\Users\tellt\AppData\Local\Microsoft\WindowsApps;d:\go\workspace\bin;C:\Users\tellt\AppData\Roaming\npm;;.]
+2019-11-30 12:23:04.885  INFO 160796 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/auth]   : Initializing Spring embedded WebApplicationContext
+2019-11-30 12:23:04.885  INFO 160796 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1093 ms
+2019-11-30 12:23:05.057  INFO 160796 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-30 12:23:05.164  INFO 160796 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-11-30 12:23:05.203  INFO 160796 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/auth]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-30 12:23:05.203  INFO 160796 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-30 12:23:05.210  INFO 160796 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-11-30 12:23:05.227  INFO 160796 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9070 (http) with context path '/auth'
+2019-11-30 12:23:05.229  INFO 160796 --- [restartedMain] c.h.iot.platform.auth.AuthApplication    : Started AuthApplication in 1.915 seconds (JVM running for 2.822)
+2019-11-30 12:23:12.685  INFO 160796 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : beforeHandshake deviceId is 15013670707
+2019-11-30 12:23:12.687  INFO 160796 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthHandshakeHandler     : 15013670707 determineUser
+2019-11-30 12:23:12.703  INFO 160796 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : afterHandshake
+2019-11-30 12:23:12.718  INFO 160796 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 有人连接啦  sessionId = 112c7b6d-1c73-87a5-400e-ddae15288d6c
+2019-11-30 12:23:12.718  INFO 160796 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 连线!
+2019-11-30 12:23:12.718  INFO 160796 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.manager.SocketManager      : 新添加webSocket连接 15013670707 
+2019-11-30 12:23:33.901  INFO 160796 --- [http-nio-9070-exec-4] c.h.i.p.a.c.w.manager.SocketManager      : 获取session 15013670707,sessionId is 112c7b6d-1c73-87a5-400e-ddae15288d6c 
+2019-11-30 12:24:01.129  INFO 160796 --- [http-nio-9070-exec-2] c.h.i.p.a.c.w.manager.SocketManager      : 移除webSocket连接 15013670707 
+2019-11-30 12:24:01.130  INFO 160796 --- [http-nio-9070-exec-2] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 断开!
+2019-11-30 12:24:05.081  INFO 160796 --- [http-nio-9070-exec-5] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : beforeHandshake deviceId is 15013670707
+2019-11-30 12:24:05.082  INFO 160796 --- [http-nio-9070-exec-5] c.h.i.p.a.c.w.h.AuthHandshakeHandler     : 15013670707 determineUser
+2019-11-30 12:24:05.083  INFO 160796 --- [http-nio-9070-exec-5] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : afterHandshake
+2019-11-30 12:24:05.084  INFO 160796 --- [http-nio-9070-exec-5] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 有人连接啦  sessionId = 78e11f51-dfdf-c5f9-8a8e-6ab645d35c9a
+2019-11-30 12:24:05.084  INFO 160796 --- [http-nio-9070-exec-5] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 连线!
+2019-11-30 12:24:05.084  INFO 160796 --- [http-nio-9070-exec-5] c.h.i.p.a.c.w.manager.SocketManager      : 新添加webSocket连接 15013670707 
+2019-11-30 12:24:11.205  INFO 160796 --- [http-nio-9070-exec-7] c.h.i.p.a.c.w.manager.SocketManager      : 获取session 15013670707,sessionId is 78e11f51-dfdf-c5f9-8a8e-6ab645d35c9a 
+2019-11-30 12:25:12.687  INFO 160796 --- [http-nio-9070-exec-8] c.h.i.p.a.c.w.manager.SocketManager      : 移除webSocket连接 15013670707 
+2019-11-30 12:25:12.688  INFO 160796 --- [http-nio-9070-exec-8] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 断开!
+2019-11-30 12:25:13.645  INFO 160796 --- [http-nio-9070-exec-9] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : beforeHandshake deviceId is 15013670707
+2019-11-30 12:25:13.645  INFO 160796 --- [http-nio-9070-exec-9] c.h.i.p.a.c.w.h.AuthHandshakeHandler     : 15013670707 determineUser
+2019-11-30 12:25:13.646  INFO 160796 --- [http-nio-9070-exec-9] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : afterHandshake
+2019-11-30 12:25:13.647  INFO 160796 --- [http-nio-9070-exec-9] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 有人连接啦  sessionId = 1d99735c-da5f-d272-cffc-e578544ba65c
+2019-11-30 12:25:13.647  INFO 160796 --- [http-nio-9070-exec-9] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 连线!
+2019-11-30 12:25:13.647  INFO 160796 --- [http-nio-9070-exec-9] c.h.i.p.a.c.w.manager.SocketManager      : 新添加webSocket连接 15013670707 
+2019-11-30 12:25:21.009  INFO 160796 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.manager.SocketManager      : 获取session 15013670707,sessionId is 1d99735c-da5f-d272-cffc-e578544ba65c 
+2019-11-30 12:28:34.727  INFO 160796 --- [http-nio-9070-exec-4] c.h.i.p.a.c.w.manager.SocketManager      : 移除webSocket连接 15013670707 
+2019-11-30 12:28:34.727  INFO 160796 --- [http-nio-9070-exec-4] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 断开!
+2019-11-30 12:28:36.161  INFO 160796 --- [http-nio-9070-exec-2] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : beforeHandshake deviceId is 15013670707
+2019-11-30 12:28:36.162  INFO 160796 --- [http-nio-9070-exec-2] c.h.i.p.a.c.w.h.AuthHandshakeHandler     : 15013670707 determineUser
+2019-11-30 12:28:36.163  INFO 160796 --- [http-nio-9070-exec-2] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : afterHandshake
+2019-11-30 12:28:36.164  INFO 160796 --- [http-nio-9070-exec-2] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 有人连接啦  sessionId = 9a06ffce-0308-3b35-2d82-c626db3c0503
+2019-11-30 12:28:36.164  INFO 160796 --- [http-nio-9070-exec-2] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 连线!
+2019-11-30 12:28:36.164  INFO 160796 --- [http-nio-9070-exec-2] c.h.i.p.a.c.w.manager.SocketManager      : 新添加webSocket连接 15013670707 
+2019-11-30 12:28:38.671  INFO 160796 --- [http-nio-9070-exec-5] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 收到15013670707的消息:dASDASD
+2019-11-30 12:30:39.071  INFO 160796 --- [http-nio-9070-exec-7] c.h.i.p.a.c.w.manager.SocketManager      : 移除webSocket连接 15013670707 
+2019-11-30 12:30:39.072  INFO 160796 --- [http-nio-9070-exec-7] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 断开!
+2019-11-30 12:36:00.237  INFO 160796 --- [http-nio-9070-exec-6] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : beforeHandshake deviceId is 15013670707
+2019-11-30 12:36:00.237  INFO 160796 --- [http-nio-9070-exec-6] c.h.i.p.a.c.w.h.AuthHandshakeHandler     : 15013670707 determineUser
+2019-11-30 12:36:00.239  INFO 160796 --- [http-nio-9070-exec-6] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : afterHandshake
+2019-11-30 12:36:00.239  INFO 160796 --- [http-nio-9070-exec-6] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 有人连接啦  sessionId = 1bbf3a02-ed2a-87b9-1098-4ec745d36f1f
+2019-11-30 12:36:00.240  INFO 160796 --- [http-nio-9070-exec-6] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 连线!
+2019-11-30 12:36:00.240  INFO 160796 --- [http-nio-9070-exec-6] c.h.i.p.a.c.w.manager.SocketManager      : 新添加webSocket连接 15013670707 
+2019-11-30 12:36:03.866  INFO 160796 --- [http-nio-9070-exec-8] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 收到15013670707的消息:undefined
+2019-11-30 12:36:11.126  INFO 160796 --- [http-nio-9070-exec-10] c.h.i.p.a.c.w.manager.SocketManager      : 获取session 15013670707,sessionId is 1bbf3a02-ed2a-87b9-1098-4ec745d36f1f 
+2019-11-30 12:42:49.840  INFO 160796 --- [http-nio-9070-exec-3] c.h.i.p.a.c.w.manager.SocketManager      : 移除webSocket连接 15013670707 
+2019-11-30 12:42:49.840  INFO 160796 --- [http-nio-9070-exec-3] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 断开!
+2019-11-30 12:42:50.997  INFO 160796 --- [http-nio-9070-exec-4] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : beforeHandshake deviceId is 15013670707
+2019-11-30 12:42:50.997  INFO 160796 --- [http-nio-9070-exec-4] c.h.i.p.a.c.w.h.AuthHandshakeHandler     : 15013670707 determineUser
+2019-11-30 12:42:50.998  INFO 160796 --- [http-nio-9070-exec-4] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : afterHandshake
+2019-11-30 12:42:50.998  INFO 160796 --- [http-nio-9070-exec-4] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 有人连接啦  sessionId = 68567e7c-814b-c8e7-da16-4105a44ca511
+2019-11-30 12:42:50.999  INFO 160796 --- [http-nio-9070-exec-4] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 连线!
+2019-11-30 12:42:50.999  INFO 160796 --- [http-nio-9070-exec-4] c.h.i.p.a.c.w.manager.SocketManager      : 新添加webSocket连接 15013670707 
+2019-11-30 12:42:53.598  INFO 160796 --- [http-nio-9070-exec-2] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 收到15013670707的消息:undefined
+2019-11-30 12:42:59.330  INFO 160796 --- [http-nio-9070-exec-5] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 收到15013670707的消息:undefined
+2019-11-30 12:43:08.263  INFO 160796 --- [http-nio-9070-exec-6] c.h.i.p.a.c.w.manager.SocketManager      : 获取session 15013670707,sessionId is 68567e7c-814b-c8e7-da16-4105a44ca511 
+2019-11-30 12:43:08.266  INFO 160796 --- [http-nio-9070-exec-8] c.h.i.p.a.c.w.manager.SocketManager      : 移除webSocket连接 15013670707 
+2019-11-30 12:43:08.266  INFO 160796 --- [http-nio-9070-exec-8] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 断开!
+2019-11-30 12:43:50.228  INFO 160796 --- [http-nio-9070-exec-9] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : beforeHandshake deviceId is 15013670707
+2019-11-30 12:43:50.228  INFO 160796 --- [http-nio-9070-exec-9] c.h.i.p.a.c.w.h.AuthHandshakeHandler     : 15013670707 determineUser
+2019-11-30 12:43:50.229  INFO 160796 --- [http-nio-9070-exec-9] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : afterHandshake
+2019-11-30 12:43:50.230  INFO 160796 --- [http-nio-9070-exec-9] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 有人连接啦  sessionId = 22c855c7-ee06-3b19-c00a-86b7c176d146
+2019-11-30 12:43:50.230  INFO 160796 --- [http-nio-9070-exec-9] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 连线!
+2019-11-30 12:43:50.230  INFO 160796 --- [http-nio-9070-exec-9] c.h.i.p.a.c.w.manager.SocketManager      : 新添加webSocket连接 15013670707 
+2019-11-30 12:43:52.511  INFO 160796 --- [http-nio-9070-exec-10] c.h.i.p.a.c.w.manager.SocketManager      : 移除webSocket连接 15013670707 
+2019-11-30 12:43:52.511  INFO 160796 --- [http-nio-9070-exec-10] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 断开!
+2019-11-30 12:44:24.397  INFO 160796 --- [http-nio-9070-exec-3] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : beforeHandshake deviceId is 15013670707
+2019-11-30 12:44:24.397  INFO 160796 --- [http-nio-9070-exec-3] c.h.i.p.a.c.w.h.AuthHandshakeHandler     : 15013670707 determineUser
+2019-11-30 12:44:24.398  INFO 160796 --- [http-nio-9070-exec-3] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : afterHandshake
+2019-11-30 12:44:24.399  INFO 160796 --- [http-nio-9070-exec-3] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 有人连接啦  sessionId = 4cb1ed10-dd29-b88c-f272-4db2756942ea
+2019-11-30 12:44:24.399  INFO 160796 --- [http-nio-9070-exec-3] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 连线!
+2019-11-30 12:44:24.399  INFO 160796 --- [http-nio-9070-exec-3] c.h.i.p.a.c.w.manager.SocketManager      : 新添加webSocket连接 15013670707 
+2019-11-30 12:44:25.198  INFO 160796 --- [http-nio-9070-exec-4] c.h.i.p.a.c.w.manager.SocketManager      : 移除webSocket连接 15013670707 
+2019-11-30 12:44:25.198  INFO 160796 --- [http-nio-9070-exec-4] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 断开!
+2019-11-30 12:44:30.384  INFO 160796 --- [http-nio-9070-exec-2] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : beforeHandshake deviceId is 15013670707
+2019-11-30 12:44:30.384  INFO 160796 --- [http-nio-9070-exec-2] c.h.i.p.a.c.w.h.AuthHandshakeHandler     : 15013670707 determineUser
+2019-11-30 12:44:30.385  INFO 160796 --- [http-nio-9070-exec-2] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : afterHandshake
+2019-11-30 12:44:30.385  INFO 160796 --- [http-nio-9070-exec-2] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 有人连接啦  sessionId = 0d1e4b4c-e964-05ea-fe4e-7c2536120f24
+2019-11-30 12:44:30.386  INFO 160796 --- [http-nio-9070-exec-2] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 连线!
+2019-11-30 12:44:30.386  INFO 160796 --- [http-nio-9070-exec-2] c.h.i.p.a.c.w.manager.SocketManager      : 新添加webSocket连接 15013670707 
+2019-11-30 12:44:34.762  INFO 160796 --- [http-nio-9070-exec-5] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 收到15013670707的消息:undefined
+2019-11-30 12:44:40.000  INFO 160796 --- [http-nio-9070-exec-6] c.h.i.p.a.c.w.manager.SocketManager      : 获取session 15013670707,sessionId is 0d1e4b4c-e964-05ea-fe4e-7c2536120f24 
+2019-11-30 12:44:40.002  INFO 160796 --- [http-nio-9070-exec-8] c.h.i.p.a.c.w.manager.SocketManager      : 移除webSocket连接 15013670707 
+2019-11-30 12:44:40.002  INFO 160796 --- [http-nio-9070-exec-8] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 断开!
+2019-11-30 12:48:45.805  INFO 160796 --- [http-nio-9070-exec-10] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : beforeHandshake deviceId is 15013670707
+2019-11-30 12:48:45.806  INFO 160796 --- [http-nio-9070-exec-10] c.h.i.p.a.c.w.h.AuthHandshakeHandler     : 15013670707 determineUser
+2019-11-30 12:48:45.807  INFO 160796 --- [http-nio-9070-exec-10] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : afterHandshake
+2019-11-30 12:48:45.807  INFO 160796 --- [http-nio-9070-exec-10] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 有人连接啦  sessionId = b3ef0b84-4e54-18dd-769e-1223f46462d9
+2019-11-30 12:48:45.808  INFO 160796 --- [http-nio-9070-exec-10] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 连线!
+2019-11-30 12:48:45.808  INFO 160796 --- [http-nio-9070-exec-10] c.h.i.p.a.c.w.manager.SocketManager      : 新添加webSocket连接 15013670707 
+2019-11-30 12:48:47.758  INFO 160796 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 收到15013670707的消息:asdf
+2019-11-30 12:48:49.734  INFO 160796 --- [http-nio-9070-exec-3] c.h.i.p.a.c.w.manager.SocketManager      : 移除webSocket连接 15013670707 
+2019-11-30 12:48:49.735  INFO 160796 --- [http-nio-9070-exec-3] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 断开!
+2019-11-30 12:48:51.856  INFO 160796 --- [http-nio-9070-exec-4] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : beforeHandshake deviceId is 15013670707
+2019-11-30 12:48:51.856  INFO 160796 --- [http-nio-9070-exec-4] c.h.i.p.a.c.w.h.AuthHandshakeHandler     : 15013670707 determineUser
+2019-11-30 12:48:51.857  INFO 160796 --- [http-nio-9070-exec-4] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : afterHandshake
+2019-11-30 12:48:51.857  INFO 160796 --- [http-nio-9070-exec-4] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 有人连接啦  sessionId = fb1eb923-dfce-5544-cf36-ff9125460849
+2019-11-30 12:48:51.857  INFO 160796 --- [http-nio-9070-exec-4] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 连线!
+2019-11-30 12:48:51.857  INFO 160796 --- [http-nio-9070-exec-4] c.h.i.p.a.c.w.manager.SocketManager      : 新添加webSocket连接 15013670707 
+2019-11-30 12:48:55.902  INFO 160796 --- [http-nio-9070-exec-5] c.h.i.p.a.c.w.manager.SocketManager      : 获取session 15013670707,sessionId is fb1eb923-dfce-5544-cf36-ff9125460849 
+2019-11-30 12:48:55.904  INFO 160796 --- [http-nio-9070-exec-7] c.h.i.p.a.c.w.manager.SocketManager      : 移除webSocket连接 15013670707 
+2019-11-30 12:48:55.904  INFO 160796 --- [http-nio-9070-exec-7] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 断开!
+2019-11-30 12:50:12.821  INFO 160796 --- [http-nio-9070-exec-6] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : beforeHandshake deviceId is 15013670707
+2019-11-30 12:50:12.821  INFO 160796 --- [http-nio-9070-exec-6] c.h.i.p.a.c.w.h.AuthHandshakeHandler     : 15013670707 determineUser
+2019-11-30 12:50:12.822  INFO 160796 --- [http-nio-9070-exec-6] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : afterHandshake
+2019-11-30 12:50:12.822  INFO 160796 --- [http-nio-9070-exec-6] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 有人连接啦  sessionId = 8f5e845c-3db0-02bf-8c93-c0a91e821643
+2019-11-30 12:50:12.823  INFO 160796 --- [http-nio-9070-exec-6] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 连线!
+2019-11-30 12:50:12.823  INFO 160796 --- [http-nio-9070-exec-6] c.h.i.p.a.c.w.manager.SocketManager      : 新添加webSocket连接 15013670707 
+2019-11-30 13:17:28.033  INFO 170464 --- [restartedMain] c.h.iot.platform.auth.AuthApplication    : Starting AuthApplication on Tim-WJ with PID 170464 (E:\workspace\idea\iot-platform\iot-auth-server\target\classes started by tellt in E:\workspace\idea\iot-platform)
+2019-11-30 13:17:28.035  INFO 170464 --- [restartedMain] c.h.iot.platform.auth.AuthApplication    : No active profile set, falling back to default profiles: default
+2019-11-30 13:17:28.077  INFO 170464 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-30 13:17:28.077  INFO 170464 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-30 13:17:29.025  INFO 170464 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9070 (http)
+2019-11-30 13:17:29.049  INFO 170464 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-30 13:17:29.050  INFO 170464 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-11-30 13:17:29.054  INFO 170464 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\tellt\AppData\Local\Android\sdk\platform-tools\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Go\bin;C:\Program Files\nodejs\;F:\Tools\androidStudio\android-ndk-r16b\;D:\maven3\bin\;C:\Users\tellt\AppData\Local\Android\Sdk\;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Users\tellt\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\tellt\AppData\Local\Programs\Python\Python37\;C:\Users\tellt\AppData\Local\Microsoft\WindowsApps;d:\go\workspace\bin;C:\Users\tellt\AppData\Roaming\npm;;.]
+2019-11-30 13:17:29.106  INFO 170464 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/auth]   : Initializing Spring embedded WebApplicationContext
+2019-11-30 13:17:29.106  INFO 170464 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1029 ms
+2019-11-30 13:17:29.242  INFO 170464 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-30 13:17:29.326  INFO 170464 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-11-30 13:17:29.354  INFO 170464 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/auth]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-30 13:17:29.354  INFO 170464 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-30 13:17:29.357  INFO 170464 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2019-11-30 13:17:29.358  INFO 170464 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9070 (http) with context path '/auth'
+2019-11-30 13:17:29.360  INFO 170464 --- [restartedMain] c.h.iot.platform.auth.AuthApplication    : Started AuthApplication in 1.65 seconds (JVM running for 2.187)
+2019-11-30 13:18:12.483  INFO 170464 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : beforeHandshake deviceId is 15013670707
+2019-11-30 13:18:12.503  INFO 170464 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : afterHandshake
+2019-11-30 13:18:12.515  INFO 170464 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 有人连接啦  sessionId = 105c17be-d5e5-04d9-a06c-d3edf73dafa3
+2019-11-30 13:18:12.516  INFO 170464 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 连线!
+2019-11-30 13:18:12.516  INFO 170464 --- [http-nio-9070-exec-1] c.h.i.p.a.c.w.manager.SocketManager      : 新添加webSocket连接 15013670707 
+2019-11-30 13:18:15.901  INFO 170464 --- [http-nio-9070-exec-2] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : beforeHandshake deviceId is 15013670707
+2019-11-30 13:18:15.901  INFO 170464 --- [http-nio-9070-exec-2] c.h.i.p.a.c.w.manager.SocketManager      : 获取session 15013670707,sessionId is 105c17be-d5e5-04d9-a06c-d3edf73dafa3 
+2019-11-30 13:18:15.901  INFO 170464 --- [http-nio-9070-exec-2] c.h.i.p.a.c.w.h.AuthHandshakeHandler     : session 未断开,收到重复请求 deviceId is 15013670707
+2019-11-30 13:18:15.901  INFO 170464 --- [http-nio-9070-exec-2] c.h.i.p.a.c.w.manager.SocketManager      : 移除webSocket连接 15013670707 
+2019-11-30 13:18:15.903  INFO 170464 --- [http-nio-9070-exec-2] c.h.i.p.a.c.w.manager.SocketManager      : 移除webSocket连接 15013670707 
+2019-11-30 13:18:15.903  INFO 170464 --- [http-nio-9070-exec-2] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 断开!
+2019-11-30 13:18:15.904  INFO 170464 --- [http-nio-9070-exec-2] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : afterHandshake
+2019-11-30 13:18:15.905  INFO 170464 --- [http-nio-9070-exec-2] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 有人连接啦  sessionId = 1340e57e-745e-7676-ac86-a0d9e1f03cda
+2019-11-30 13:18:59.049  INFO 170464 --- [http-nio-9070-exec-4] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : beforeHandshake deviceId is 15013670707
+2019-11-30 13:18:59.050  INFO 170464 --- [http-nio-9070-exec-4] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : afterHandshake
+2019-11-30 13:18:59.051  INFO 170464 --- [http-nio-9070-exec-4] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 有人连接啦  sessionId = 7d9a929c-c2fc-74a5-5c10-778a70e7c0eb
+2019-11-30 13:18:59.051  INFO 170464 --- [http-nio-9070-exec-4] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 连线!
+2019-11-30 13:18:59.051  INFO 170464 --- [http-nio-9070-exec-4] c.h.i.p.a.c.w.manager.SocketManager      : 新添加webSocket连接 15013670707 
+2019-11-30 13:19:00.995  INFO 170464 --- [http-nio-9070-exec-5] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : beforeHandshake deviceId is 15013670707
+2019-11-30 13:19:00.996  INFO 170464 --- [http-nio-9070-exec-5] c.h.i.p.a.c.w.manager.SocketManager      : 获取session 15013670707,sessionId is 7d9a929c-c2fc-74a5-5c10-778a70e7c0eb 
+2019-11-30 13:19:00.996  INFO 170464 --- [http-nio-9070-exec-5] c.h.i.p.a.c.w.h.AuthHandshakeHandler     : session 未断开,收到重复请求 deviceId is 15013670707
+2019-11-30 13:19:00.996  INFO 170464 --- [http-nio-9070-exec-5] c.h.i.p.a.c.w.manager.SocketManager      : 移除webSocket连接 15013670707 
+2019-11-30 13:19:00.997  INFO 170464 --- [http-nio-9070-exec-5] c.h.i.p.a.c.w.manager.SocketManager      : 移除webSocket连接 15013670707 
+2019-11-30 13:19:00.997  INFO 170464 --- [http-nio-9070-exec-5] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 断开!
+2019-11-30 13:19:00.998  INFO 170464 --- [http-nio-9070-exec-5] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : afterHandshake
+2019-11-30 13:19:00.999  INFO 170464 --- [http-nio-9070-exec-5] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 有人连接啦  sessionId = 77ba6c0d-937b-87be-f48f-6946678b6118
+2019-11-30 13:19:03.320  INFO 170464 --- [http-nio-9070-exec-7] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : beforeHandshake deviceId is 15013670707
+2019-11-30 13:19:03.321  INFO 170464 --- [http-nio-9070-exec-7] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : afterHandshake
+2019-11-30 13:19:03.322  INFO 170464 --- [http-nio-9070-exec-7] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 有人连接啦  sessionId = 41dfcc4e-6866-b4af-fc0c-a9ad1aa2d001
+2019-11-30 13:19:03.322  INFO 170464 --- [http-nio-9070-exec-7] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 连线!
+2019-11-30 13:19:03.322  INFO 170464 --- [http-nio-9070-exec-7] c.h.i.p.a.c.w.manager.SocketManager      : 新添加webSocket连接 15013670707 
+2019-11-30 13:19:06.208  INFO 170464 --- [http-nio-9070-exec-9] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : beforeHandshake deviceId is 15013670707
+2019-11-30 13:19:06.209  INFO 170464 --- [http-nio-9070-exec-9] c.h.i.p.a.c.w.manager.SocketManager      : 获取session 15013670707,sessionId is 41dfcc4e-6866-b4af-fc0c-a9ad1aa2d001 
+2019-11-30 13:19:06.209  INFO 170464 --- [http-nio-9070-exec-9] c.h.i.p.a.c.w.h.AuthHandshakeHandler     : session 未断开,收到重复请求 deviceId is 15013670707
+2019-11-30 13:19:06.209  INFO 170464 --- [http-nio-9070-exec-9] c.h.i.p.a.c.w.manager.SocketManager      : 移除webSocket连接 15013670707 
+2019-11-30 13:19:06.209  INFO 170464 --- [http-nio-9070-exec-9] c.h.i.p.a.c.w.manager.SocketManager      : 移除webSocket连接 15013670707 
+2019-11-30 13:19:06.209  INFO 170464 --- [http-nio-9070-exec-9] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 15013670707 断开!
+2019-11-30 13:19:06.210  INFO 170464 --- [http-nio-9070-exec-9] c.h.i.p.a.c.w.h.AuthHandshakeInterceptor : afterHandshake
+2019-11-30 13:19:06.211  INFO 170464 --- [http-nio-9070-exec-9] c.h.i.p.a.c.w.h.AuthWebSocketHandler     : 有人连接啦  sessionId = 9df7337c-046f-76e9-4778-e05f1f2e5a8e

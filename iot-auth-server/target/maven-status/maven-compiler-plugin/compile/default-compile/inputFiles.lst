@@ -1,0 +1,13 @@
+E:\workspace\idea\iot-platform\iot-auth-server\src\main\java\com\hunter\iot\platform\auth\config\BeanConfig.java
+E:\workspace\idea\iot-platform\iot-auth-server\src\main\java\com\hunter\iot\platform\auth\config\websocket\manager\SocketManager.java
+E:\workspace\idea\iot-platform\iot-auth-server\src\main\java\com\hunter\iot\platform\auth\domain\repo\impl\WebSocketSessionCacheRepo.java
+E:\workspace\idea\iot-platform\iot-auth-server\src\main\java\com\hunter\iot\platform\auth\config\websocket\handshake\AuthHandshakeHandler.java
+E:\workspace\idea\iot-platform\iot-auth-server\src\main\java\com\hunter\iot\platform\auth\domain\repo\IWebSocketSessionRepo.java
+E:\workspace\idea\iot-platform\iot-auth-server\src\main\java\com\hunter\iot\platform\auth\web\protocol\Auth.java
+E:\workspace\idea\iot-platform\iot-auth-server\src\main\java\com\hunter\iot\platform\auth\config\websocket\WebSocketConfig.java
+E:\workspace\idea\iot-platform\iot-auth-server\src\main\java\com\hunter\iot\platform\auth\AuthApplication.java
+E:\workspace\idea\iot-platform\iot-auth-server\src\main\java\com\hunter\iot\platform\auth\web\AuthController.java
+E:\workspace\idea\iot-platform\iot-auth-server\src\main\java\com\hunter\iot\platform\auth\config\websocket\handler\AuthWebSocketHandler.java
+E:\workspace\idea\iot-platform\iot-auth-server\src\main\java\com\hunter\iot\platform\auth\domain\service\impl\DeviceAuthMessageService.java
+E:\workspace\idea\iot-platform\iot-auth-server\src\main\java\com\hunter\iot\platform\auth\domain\service\IDeviceAuthMessageService.java
+E:\workspace\idea\iot-platform\iot-auth-server\src\main\java\com\hunter\iot\platform\auth\config\websocket\handshake\AuthHandshakeInterceptor.java
