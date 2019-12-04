@@ -1,13 +1,11 @@
 package com.hunter.iot.platform.auth.config.websocket;
 
-import com.hunter.iot.platform.auth.domain.repo.IWebSocketSessionRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.socket.WebSocketHandler;
 import org.springframework.web.socket.config.annotation.EnableWebSocket;
 import org.springframework.web.socket.config.annotation.WebSocketConfigurer;
 import org.springframework.web.socket.config.annotation.WebSocketHandlerRegistry;
-import org.springframework.web.socket.handler.WebSocketHandlerDecorator;
 import org.springframework.web.socket.server.HandshakeHandler;
 import org.springframework.web.socket.server.HandshakeInterceptor;
 
@@ -30,6 +28,7 @@ public class WebSocketConfig implements WebSocketConfigurer {
         this.authWebSocketHandler = authWebSocketHandler;
         this.authHandshakeInterceptor = authHandshakeInterceptor;
         this.authHandshakeHandler = authHandshakeHandler;
+
     }
 
     @Override

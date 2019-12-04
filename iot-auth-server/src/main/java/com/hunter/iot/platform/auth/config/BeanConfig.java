@@ -1,11 +1,11 @@
 package com.hunter.iot.platform.auth.config;
 
 
+import com.hunter.iot.platform.auth.config.websocket.handler.AuthWebSocketHandler;
 import com.hunter.iot.platform.auth.domain.repo.IWebSocketSessionRepo;
 import com.hunter.iot.platform.auth.domain.repo.impl.WebSocketSessionCacheRepo;
 import com.hunter.iot.platform.auth.domain.service.IDeviceAuthMessageService;
 import com.hunter.iot.platform.auth.domain.service.impl.DeviceAuthMessageService;
-import com.hunter.iot.platform.auth.config.websocket.handler.AuthWebSocketHandler;
 import com.hunter.iot.platform.auth.config.websocket.handshake.AuthHandshakeHandler;
 import com.hunter.iot.platform.auth.config.websocket.handshake.AuthHandshakeInterceptor;
 import org.springframework.context.annotation.Bean;
