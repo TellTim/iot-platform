@@ -12,8 +12,8 @@
         <plugin type="org.mybatis.generator.plugins.RowBoundsPlugin"/>
         <!--<plugin type="org.mybatis.generator.plugins.EqualsHashCodePlugin"></plugin>-->
         <commentGenerator>
-            <property name="suppressAllComments" type="true"/>
-            <property name="suppressDate" type="true"/>
+            <property name="suppressAllComments" value="true"/>
+            <property name="suppressDate" value="true"/>
         </commentGenerator>
 
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
@@ -21,21 +21,21 @@
                         password="hunter_hw2_sft_0905">
         </jdbcConnection>
         <javaTypeResolver>
-            <property name="forceBigDecimals" type="false"/>
+            <property name="forceBigDecimals" value="false"/>
         </javaTypeResolver>
 
-        <javaModelGenerator targetPackage="com.hunter.iot.platform.register.global.dao" targetProject="src\main\java">
-            <property name="enableSubPackages" type="true"/>
-            <property name="trimStrings" type="true"/>
-            <property name="constructorBased" type="true"/>
+        <javaModelGenerator targetPackage="com.tim.iot.platform.register.global.dao" targetProject="src\main\java">
+            <property name="enableSubPackages" value="true"/>
+            <property name="trimStrings" value="true"/>
+            <property name="constructorBased" value="true"/>
         </javaModelGenerator>
 
         <sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources/mybatis/">
-            <property name="enableSubPackages" type="true"/>
+            <property name="enableSubPackages" value="true"/>
         </sqlMapGenerator>
-        <javaClientGenerator type="XMLMAPPER" targetPackage="com.hunter.iot.platform.register.global.dao"
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.tim.iot.platform.register.global.dao"
                              targetProject="src\main\java">
-            <property name="enableSubPackages" type="true"/>
+            <property name="enableSubPackages" value="true"/>
         </javaClientGenerator>
 
         <table tableName="t_device" domainObjectName="DeviceRecord" enableCountByExample="true" enableSelectByExample="true">

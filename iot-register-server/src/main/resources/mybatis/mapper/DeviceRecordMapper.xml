@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.hunter.iot.platform.register.global.dao.DeviceRecordMapper">
-  <resultMap id="BaseResultMap" type="com.hunter.iot.platform.register.global.dao.DeviceRecord">
+<mapper namespace="com.tim.iot.platform.register.global.dao.DeviceRecordMapper">
+  <resultMap id="BaseResultMap" type="com.tim.iot.platform.register.global.dao.DeviceRecord">
     <constructor>
       <idArg column="id" javaType="java.lang.Long" jdbcType="BIGINT" />
       <arg column="device_id" javaType="java.lang.String" jdbcType="VARCHAR" />
@@ -23,14 +23,14 @@
                   and ${criterion.condition}
                 </when>
                 <when test="criterion.singleValue">
-                  and ${criterion.condition} #{criterion.type}
+                  and ${criterion.condition} #{criterion.value}
                 </when>
                 <when test="criterion.betweenValue">
-                  and ${criterion.condition} #{criterion.type} and #{criterion.secondValue}
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
                 </when>
                 <when test="criterion.listValue">
                   and ${criterion.condition}
-                  <foreach close=")" collection="criterion.type" item="listItem" open="(" separator=",">
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
                     #{listItem}
                   </foreach>
                 </when>
@@ -52,14 +52,14 @@
                   and ${criterion.condition}
                 </when>
                 <when test="criterion.singleValue">
-                  and ${criterion.condition} #{criterion.type}
+                  and ${criterion.condition} #{criterion.value}
                 </when>
                 <when test="criterion.betweenValue">
-                  and ${criterion.condition} #{criterion.type} and #{criterion.secondValue}
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
                 </when>
                 <when test="criterion.listValue">
                   and ${criterion.condition}
-                  <foreach close=")" collection="criterion.type" item="listItem" open="(" separator=",">
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
                     #{listItem}
                   </foreach>
                 </when>
@@ -73,7 +73,7 @@
   <sql id="Base_Column_List">
     id, device_id, mac_address, imei, create_at, bind_flag, account
   </sql>
-  <select id="selectByExample" parameterType="com.hunter.iot.platform.register.global.dao.DeviceRecordExample" resultMap="BaseResultMap">
+  <select id="selectByExample" parameterType="com.tim.iot.platform.register.global.dao.DeviceRecordExample" resultMap="BaseResultMap">
     select
     <if test="distinct">
       distinct
@@ -97,13 +97,13 @@
     delete from t_device
     where id = #{id,jdbcType=BIGINT}
   </delete>
-  <delete id="deleteByExample" parameterType="com.hunter.iot.platform.register.global.dao.DeviceRecordExample">
+  <delete id="deleteByExample" parameterType="com.tim.iot.platform.register.global.dao.DeviceRecordExample">
     delete from t_device
     <if test="_parameter != null">
       <include refid="Example_Where_Clause" />
     </if>
   </delete>
-  <insert id="insert" keyColumn="id" keyProperty="id" parameterType="com.hunter.iot.platform.register.global.dao.DeviceRecord" useGeneratedKeys="true">
+  <insert id="insert" keyColumn="id" keyProperty="id" parameterType="com.tim.iot.platform.register.global.dao.DeviceRecord" useGeneratedKeys="true">
     insert into t_device (device_id, mac_address, imei, 
       create_at, bind_flag, account
       )
@@ -111,7 +111,7 @@
       #{createAt,jdbcType=BIGINT}, #{bindFlag,jdbcType=BIT}, #{account,jdbcType=VARCHAR}
       )
   </insert>
-  <insert id="insertSelective" keyColumn="id" keyProperty="id" parameterType="com.hunter.iot.platform.register.global.dao.DeviceRecord" useGeneratedKeys="true">
+  <insert id="insertSelective" keyColumn="id" keyProperty="id" parameterType="com.tim.iot.platform.register.global.dao.DeviceRecord" useGeneratedKeys="true">
     insert into t_device
     <trim prefix="(" suffix=")" suffixOverrides=",">
       <if test="deviceId != null">
@@ -154,7 +154,7 @@
       </if>
     </trim>
   </insert>
-  <select id="countByExample" parameterType="com.hunter.iot.platform.register.global.dao.DeviceRecordExample" resultType="java.lang.Long">
+  <select id="countByExample" parameterType="com.tim.iot.platform.register.global.dao.DeviceRecordExample" resultType="java.lang.Long">
     select count(*) from t_device
     <if test="_parameter != null">
       <include refid="Example_Where_Clause" />
@@ -202,7 +202,7 @@
       <include refid="Update_By_Example_Where_Clause" />
     </if>
   </update>
-  <update id="updateByPrimaryKeySelective" parameterType="com.hunter.iot.platform.register.global.dao.DeviceRecord">
+  <update id="updateByPrimaryKeySelective" parameterType="com.tim.iot.platform.register.global.dao.DeviceRecord">
     update t_device
     <set>
       <if test="deviceId != null">
@@ -226,7 +226,7 @@
     </set>
     where id = #{id,jdbcType=BIGINT}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.hunter.iot.platform.register.global.dao.DeviceRecord">
+  <update id="updateByPrimaryKey" parameterType="com.tim.iot.platform.register.global.dao.DeviceRecord">
     update t_device
     set device_id = #{deviceId,jdbcType=VARCHAR},
       mac_address = #{macAddress,jdbcType=VARCHAR},
@@ -236,7 +236,7 @@
       account = #{account,jdbcType=VARCHAR}
     where id = #{id,jdbcType=BIGINT}
   </update>
-  <select id="selectByExampleWithRowbounds" parameterType="com.hunter.iot.platform.register.global.dao.DeviceRecordExample" resultMap="BaseResultMap">
+  <select id="selectByExampleWithRowbounds" parameterType="com.tim.iot.platform.register.global.dao.DeviceRecordExample" resultMap="BaseResultMap">
     select
     <if test="distinct">
       distinct

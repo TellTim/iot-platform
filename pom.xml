@@ -12,7 +12,7 @@
     </parent>
 
 
-    <groupId>com.hunter.iot.platform</groupId>
+    <groupId>com.tim.iot.platform</groupId>
     <artifactId>iot-platform</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0</version>
@@ -86,6 +86,7 @@
     <modules>
         <module>iot-auth-server</module>
         <module>iot-register-server</module>
+        <module>iot-trace-server</module>
     </modules>
 
 
