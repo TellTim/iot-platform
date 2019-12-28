@@ -14,4 +14,8 @@ public interface IDeviceService {
     void save(String deviceId, String mac, String imei, Long timestamp);
 
     String generateQrCode(String deviceId, String mac, String imei, Long timestamp, String type) throws NotSupportDeviceTypeException;
+
+    void correctProperty(Long deviceIndex, String mac, String imei);
+
+    void updateTimestamp(Long deviceIndex, Long timestamp);
 }

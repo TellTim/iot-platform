@@ -11,4 +11,7 @@ public interface IDeviceRepo {
 
     void save(String deviceId, String mac, String imei, Long timestamp);
 
+    void updateProperty(Long deviceIndex, String mac, String imei);
+
+    void updateTimestamp(Long deviceIndex, Long timestamp);
 }

@@ -77,6 +77,32 @@ public class DeviceRepoImpl implements IDeviceRepo {
         }
     }
 
+
+    @Override
+    public synchronized void updateProperty(Long deviceIndex, String mac, String imei) {
+        DeviceRecord boxRecord = new DeviceRecord();
+        boxRecord.setId(deviceIndex);
+        boxRecord.setMacAddress(mac);
+        boxRecord.setImei(imei);
+        try {
+            deviceRecordMapper.updateByPrimaryKeySelective(boxRecord);
+        }catch (Exception e){
+            log.error("updateProperty exception: "+e.getMessage());
+        }
+    }
+
+    @Override
+    public void updateTimestamp(Long deviceIndex, Long timestamp) {
+        DeviceRecord boxRecord = new DeviceRecord();
+        boxRecord.setId(deviceIndex);
+        boxRecord.setCreateAt(timestamp);
+        try {
+            deviceRecordMapper.updateByPrimaryKeySelective(boxRecord);
+        }catch (Exception e){
+            log.error("updateTimestamp exception: "+e.getMessage());
+        }
+    }
+
     @Deprecated
     public void saveOrUpdate(String deviceId, String mac, String imei, Long timestamp) {
         Device device = queryByDeviceId(deviceId);

@@ -43,4 +43,14 @@ public class DeviceServiceImpl implements IDeviceService {
     public String generateQrCode(String deviceId, String mac, String imei, Long timestamp, String type) throws NotSupportDeviceTypeException {
         return qrCodeGenerate.generateQrCode(deviceId, mac, imei, timestamp, type);
     }
+
+    @Override
+    public void correctProperty(Long deviceIndex, String mac, String imei) {
+        deviceRepo.updateProperty(deviceIndex, mac,imei);
+    }
+
+    @Override
+    public void updateTimestamp(Long deviceIndex, Long timestamp) {
+        deviceRepo.updateTimestamp(deviceIndex, timestamp);
+    }
 }
