@@ -1,12 +1,9 @@
-package com.tim.iot.platform.register.domain.model.vojvalue;
+package com.tim.iot.platform.register.web.protocol.base;
 
 /**
  * @author Tell.Tim
- * @program BindDemo
- * @packageName com.tim.iot.bind.domain.entity
  * @fileName Respond
  * @date 2019/11/18 14:53
- * @description
  */
 public enum Respond {
     SUCCESS("200","success"),

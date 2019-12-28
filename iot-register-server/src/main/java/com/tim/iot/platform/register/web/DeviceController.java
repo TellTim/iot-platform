@@ -2,7 +2,7 @@ package com.tim.iot.platform.register.web;
 
 
 import com.tim.iot.platform.register.domain.model.entity.Device;
-import com.tim.iot.platform.register.domain.model.vojvalue.Respond;
+import com.tim.iot.platform.register.web.protocol.base.Respond;
 import com.tim.iot.platform.register.domain.service.IDeviceService;
 import com.tim.iot.platform.register.global.aop.api.ApiVersion;
 import com.tim.iot.platform.register.global.aop.time.TimeConsume;
