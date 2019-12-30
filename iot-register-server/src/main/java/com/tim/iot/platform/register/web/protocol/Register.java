@@ -23,7 +23,7 @@ public class Register {
     @NoArgsConstructor
     public static class Result extends BaseResult {
 
-        private static final Result NO_BIND_RESULT = new Result(Respond.BIND_NOT_EXIST.getCode(), Respond.DEVICE_NOT_EXIST.getData());
+        private static final Result NO_BIND_RESULT = new Result(Respond.BIND_NOT_EXIST.getCode(), Respond.BIND_NOT_EXIST.getData());
 
         public Result(String code, String data) {
             super(code, data);
