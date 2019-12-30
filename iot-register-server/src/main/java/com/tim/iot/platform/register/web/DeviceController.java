@@ -4,7 +4,6 @@ package com.tim.iot.platform.register.web;
 import com.tim.iot.platform.register.domain.model.entity.Device;
 import com.tim.iot.platform.register.web.protocol.QrCode;
 import com.tim.iot.platform.register.web.protocol.Register;
-import com.tim.iot.platform.register.web.protocol.base.DeviceResult;
 import com.tim.iot.platform.register.web.protocol.base.Respond;
 import com.tim.iot.platform.register.domain.service.IDeviceService;
 import com.tim.iot.platform.register.global.aop.api.ApiVersion;
@@ -44,14 +43,14 @@ public class DeviceController {
     @PostMapping("/{version}/register")
     @ResponseBody
     @TimeConsume
-    public Callable<DeviceResult> register(@RequestBody Register.Param param) {
+    public Callable<Register.Result> register(@RequestBody Register.Param param) {
         return () -> {
-            DeviceResult result = new DeviceResult();
+            Register.Result result = new Register.Result();
             Device device = deviceService.findByDeviceId(param.getDeviceId());
             //首次注册
             if (device == null) {
                 deviceService.save(param.getDeviceId(), param.getMac(), param.getImei(), param.getTimestamp());
-                return getQrCodeInfoResult(param.getDeviceId(), param.getMac(), param.getImei(), param.getTimestamp(), param.getType());
+                return Register.Result.buildNotBind();
             } else {
                 //已注册,并且已绑定
                 if (device.getBindFlag()) {
@@ -69,7 +68,7 @@ public class DeviceController {
                 } else {
                     //已注册,未绑定
                     deviceService.update(device.getId(), param.getMac(), param.getImei(), param.getTimestamp());
-                    return getQrCodeInfoResult(param.getDeviceId(), param.getMac(), param.getImei(), param.getTimestamp(), param.getType());
+                    return Register.Result.buildNotBind();
                 }
             }
         };
@@ -80,9 +79,9 @@ public class DeviceController {
     @PostMapping("/{version}/qrcode")
     @ResponseBody
     @TimeConsume
-    public Callable<DeviceResult> qrCode(@RequestBody QrCode.Param param) {
+    public Callable<QrCode.Result> qrCode(@RequestBody QrCode.Param param) {
         return () -> {
-            DeviceResult result = new DeviceResult();
+            QrCode.Result result = new QrCode.Result();
             Device device = deviceService.findByDeviceId(param.getDeviceId());
             if (device != null) {
                 //已绑定
@@ -103,13 +102,13 @@ public class DeviceController {
                 result.setCode(Respond.DEVICE_NOT_EXIST.getCode());
                 result.setCode(Respond.DEVICE_NOT_EXIST.getData());
                 log.error("device miss {}", param.getDeviceId());
-                return result;
+                return QrCode.Result.noDeviceBuild();
             }
         };
     }
 
-    private DeviceResult getQrCodeInfoResult(String deviceId, String mac, String imei, Long timestamp, String type) {
-        DeviceResult qrCodeInfoResult = new DeviceResult();
+    private QrCode.Result getQrCodeInfoResult(String deviceId, String mac, String imei, Long timestamp, String type) {
+        QrCode.Result qrCodeInfoResult = new QrCode.Result();
         try {
             qrCodeInfoResult.setCode(Respond.BIND_NOT_EXIST.getCode());
             qrCodeInfoResult.setData(Respond.BIND_NOT_EXIST.getData());
