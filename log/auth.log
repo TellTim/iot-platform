@@ -1,192 +1,274 @@
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-52] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是f20cf161-1e4d-5202-8829-7da058a301e7,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-48] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是3f158c05-3a86-2aa9-4aef-ab290d709c86,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-7] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是cca04558-7bdf-3e9c-14df-072f4e9d757a,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-14] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是0b8e3b7e-bf1b-5f6f-cc0c-5fea0c1e96b0,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-46] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是5a82431a-03fe-a5f1-534e-98f636e0277f,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-24] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是13a6a410-90fd-d91a-c3c3-dd13e686c950,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-51] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是0515c445-0f5f-55fa-9eb6-b6c498422635,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-53] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是0e6d3f06-e0eb-6884-31c1-69b0fe7b64dc,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-64] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是81e0716f-a7e7-344a-78e4-538abedccab9,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-40] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是dd8843db-ab61-d4d9-49b2-1eb9aa6ea45c,异常信息:null!
-2019-12-26 09:48:34.933  INFO 4092 --- [http-nio-9070-exec-11] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是298bfd51-d345-5190-2c1c-73122e976ea4,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-47] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是68fe56bc-2b35-ea5d-d5c2-10aa472384f0,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-4] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是433c96f5-2b1c-113c-b0d3-f998c96bcf09,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-26] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是3713eb77-5930-6484-1e03-c1a0d5450764,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-25] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是1cb75002-eb0b-6116-3ef7-a1ddffb2c467,异常信息:null!
-2019-12-26 09:48:34.933  INFO 4092 --- [http-nio-9070-exec-20] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是7e70a307-93a4-de25-402c-5374a90e62c5,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-39] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是4aed55a4-bf97-6c61-b03c-ad20e086a16a,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-30] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是6a74718e-111b-1d3d-969d-a90947f09b2f,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-61] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是aab3ec3c-5d68-ff75-1414-34bf2404fac2,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-32] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是67d22e58-4bef-a646-be34-42561dfbb5bc,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-6] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是70829fed-a256-951d-4557-04c6a7bc7370,异常信息:null!
-2019-12-26 09:48:34.933  INFO 4092 --- [http-nio-9070-exec-2] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是a4b07273-1e43-db9f-1027-832e2c2c81fa,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-59] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是f891f656-8f88-f5a8-b645-46ea0da8d31a,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-50] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是55abeb69-3bec-4d8e-9418-8eaa1aeefe4d,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-5] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是8f0a1ae9-4db2-30e4-6b81-b9a0533122be,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-49] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是1beacb89-ca22-14a8-603a-ef80a63aa858,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-58] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是5b2a6efc-49cc-2591-ea83-a937746b24f0,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-1] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是34d9786b-f2c7-e602-18dc-0c923c817037,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-44] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是59948d6f-7d11-99db-f3ce-f4f2c264737e,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-3] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是b4134fde-6872-f22a-4c6a-f78a14d5ac9c,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-54] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是fb0ddc56-449e-0e9c-404a-888430a30547,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-57] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是34c5055c-45d8-7cea-6b39-57c2b74cb8a1,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-37] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是33a6c454-3f45-8b73-7d1e-6d8861ba6fa2,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-17] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是3543179d-e4e8-1912-f1eb-b1951dd60a0d,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-56] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是191086f4-194e-6749-3884-a726f90642f2,异常信息:null!
-2019-12-26 09:48:34.933  INFO 4092 --- [http-nio-9070-exec-16] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是09ea064c-3bc6-7afd-596d-4991baaf04dc,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-60] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是e8984fc1-c95c-8a3b-b9d5-88c315e40960,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-8] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是45ed9036-62e4-8707-b5a1-3dba062d6f9e,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-63] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是4583ebfe-2ec8-b052-4622-13c91c011e8e,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-15] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是01be8852-f6c3-04b1-78a4-f978a9fed2e5,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-38] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是7dfc0737-3dc5-d460-c5a2-c629479c8223,异常信息:null!
-2019-12-26 09:48:34.933  INFO 4092 --- [http-nio-9070-exec-18] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是56a23f3a-c880-d094-5149-55f0f71504c9,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-13] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是c2754847-8dd6-c32c-8c7e-c42e13d6e38d,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-42] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是87d25bd0-c23e-dac9-0015-29b4a957b6a5,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-31] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是395f4550-b6df-b714-1f7b-8b01772e0a48,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-34] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是b4f44483-1f4b-4197-c6f1-fef4834d1dfe,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-62] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是27198735-85f0-f628-9dab-cc6a97dc15f3,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-12] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是b3ddcf42-2262-9dde-7234-73c7dcf19374,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-27] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是79a6e717-82c8-f810-ed1e-7914f0031ffb,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-10] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是2969b9cd-2e59-80fe-c269-74fae66a48a1,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-43] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是6426a445-3850-7ed7-f478-59520649526e,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-23] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是07bf5d78-de59-6ebd-5ca3-736eceb575a6,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-35] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是431cd564-6d30-be96-f679-b282b7fc0b80,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-29] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是430b7843-ccbe-c6a1-2345-92a151f58044,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-28] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是db624afa-dc2f-58e3-efd5-2729e9bebeb3,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-41] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是196bfb34-05bb-4a68-d649-0b4d85719ebc,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-33] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是1606eafd-32cc-a79b-e03d-fa2da81a9af4,异常信息:null!
-2019-12-26 09:48:34.933  INFO 4092 --- [http-nio-9070-exec-21] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是452b7c34-18ca-a235-273f-e459a3ce57f3,异常信息:null!
-2019-12-26 09:48:34.933  INFO 4092 --- [http-nio-9070-exec-22] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是bfb18b3b-304c-93f3-528d-c30c64d23a5b,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-36] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是3b396be1-174e-fbd1-1b51-d5e1f56e5701,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-19] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是341b25b5-e662-caf9-1361-f38c308e2a1d,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-55] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是2de901d8-683a-2905-a1c3-de550b5e60d8,异常信息:null!
-2019-12-26 09:48:34.933  INFO 4092 --- [http-nio-9070-exec-9] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是e2c38d97-6159-632b-0de8-2d1b7d184ab0,异常信息:null!
-2019-12-26 09:48:34.932  INFO 4092 --- [http-nio-9070-exec-45] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955 连接,会话id是62d04f40-7de1-7414-d965-37a9231af9f7,异常信息:null!
-2019-12-26 09:48:35.534  INFO 4092 --- [http-nio-9070-exec-3] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.534  INFO 4092 --- [http-nio-9070-exec-25] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.534  INFO 4092 --- [http-nio-9070-exec-57] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.534  INFO 4092 --- [http-nio-9070-exec-37] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.534  INFO 4092 --- [http-nio-9070-exec-25] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是1cb75002-eb0b-6116-3ef7-a1ddffb2c467的连接已断开
-2019-12-26 09:48:35.534  INFO 4092 --- [http-nio-9070-exec-37] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是33a6c454-3f45-8b73-7d1e-6d8861ba6fa2的连接已断开
-2019-12-26 09:48:35.534  INFO 4092 --- [http-nio-9070-exec-57] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是34c5055c-45d8-7cea-6b39-57c2b74cb8a1的连接已断开
-2019-12-26 09:48:35.534  INFO 4092 --- [http-nio-9070-exec-64] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.534  INFO 4092 --- [http-nio-9070-exec-3] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是b4134fde-6872-f22a-4c6a-f78a14d5ac9c的连接已断开
-2019-12-26 09:48:35.534  INFO 4092 --- [http-nio-9070-exec-11] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.535  INFO 4092 --- [http-nio-9070-exec-11] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是298bfd51-d345-5190-2c1c-73122e976ea4的连接已断开
-2019-12-26 09:48:35.534  INFO 4092 --- [http-nio-9070-exec-64] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是81e0716f-a7e7-344a-78e4-538abedccab9的连接已断开
-2019-12-26 09:48:35.536  INFO 4092 --- [http-nio-9070-exec-2] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.537  INFO 4092 --- [http-nio-9070-exec-2] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是a4b07273-1e43-db9f-1027-832e2c2c81fa的连接已断开
-2019-12-26 09:48:35.536  INFO 4092 --- [http-nio-9070-exec-49] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.536  INFO 4092 --- [http-nio-9070-exec-24] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.538  INFO 4092 --- [http-nio-9070-exec-48] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.538  INFO 4092 --- [http-nio-9070-exec-24] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是13a6a410-90fd-d91a-c3c3-dd13e686c950的连接已断开
-2019-12-26 09:48:35.538  INFO 4092 --- [http-nio-9070-exec-48] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是3f158c05-3a86-2aa9-4aef-ab290d709c86的连接已断开
-2019-12-26 09:48:35.537  INFO 4092 --- [http-nio-9070-exec-54] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.538  INFO 4092 --- [http-nio-9070-exec-63] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.538  INFO 4092 --- [http-nio-9070-exec-54] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是fb0ddc56-449e-0e9c-404a-888430a30547的连接已断开
-2019-12-26 09:48:35.539  INFO 4092 --- [http-nio-9070-exec-7] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.539  INFO 4092 --- [http-nio-9070-exec-7] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是cca04558-7bdf-3e9c-14df-072f4e9d757a的连接已断开
-2019-12-26 09:48:35.539  INFO 4092 --- [http-nio-9070-exec-58] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.538  INFO 4092 --- [http-nio-9070-exec-44] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.539  INFO 4092 --- [http-nio-9070-exec-26] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.539  INFO 4092 --- [http-nio-9070-exec-44] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是59948d6f-7d11-99db-f3ce-f4f2c264737e的连接已断开
-2019-12-26 09:48:35.539  INFO 4092 --- [http-nio-9070-exec-5] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.539  INFO 4092 --- [http-nio-9070-exec-61] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.539  INFO 4092 --- [http-nio-9070-exec-5] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是8f0a1ae9-4db2-30e4-6b81-b9a0533122be的连接已断开
-2019-12-26 09:48:35.539  INFO 4092 --- [http-nio-9070-exec-61] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是aab3ec3c-5d68-ff75-1414-34bf2404fac2的连接已断开
-2019-12-26 09:48:35.538  INFO 4092 --- [http-nio-9070-exec-1] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.539  INFO 4092 --- [http-nio-9070-exec-10] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.538  INFO 4092 --- [http-nio-9070-exec-63] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是4583ebfe-2ec8-b052-4622-13c91c011e8e的连接已断开
-2019-12-26 09:48:35.539  INFO 4092 --- [http-nio-9070-exec-58] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是5b2a6efc-49cc-2591-ea83-a937746b24f0的连接已断开
-2019-12-26 09:48:35.539  INFO 4092 --- [http-nio-9070-exec-26] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是3713eb77-5930-6484-1e03-c1a0d5450764的连接已断开
-2019-12-26 09:48:35.539  INFO 4092 --- [http-nio-9070-exec-39] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.539  INFO 4092 --- [http-nio-9070-exec-46] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.540  INFO 4092 --- [http-nio-9070-exec-43] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.541  INFO 4092 --- [http-nio-9070-exec-35] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.541  INFO 4092 --- [http-nio-9070-exec-6] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.541  INFO 4092 --- [http-nio-9070-exec-6] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是70829fed-a256-951d-4557-04c6a7bc7370的连接已断开
-2019-12-26 09:48:35.541  INFO 4092 --- [http-nio-9070-exec-35] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是431cd564-6d30-be96-f679-b282b7fc0b80的连接已断开
-2019-12-26 09:48:35.541  INFO 4092 --- [http-nio-9070-exec-43] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是6426a445-3850-7ed7-f478-59520649526e的连接已断开
-2019-12-26 09:48:35.537  INFO 4092 --- [http-nio-9070-exec-49] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是1beacb89-ca22-14a8-603a-ef80a63aa858的连接已断开
-2019-12-26 09:48:35.541  INFO 4092 --- [http-nio-9070-exec-31] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.541  INFO 4092 --- [http-nio-9070-exec-42] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.542  INFO 4092 --- [http-nio-9070-exec-31] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是395f4550-b6df-b714-1f7b-8b01772e0a48的连接已断开
-2019-12-26 09:48:35.539  INFO 4092 --- [http-nio-9070-exec-1] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是34d9786b-f2c7-e602-18dc-0c923c817037的连接已断开
-2019-12-26 09:48:35.540  INFO 4092 --- [http-nio-9070-exec-27] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.542  INFO 4092 --- [http-nio-9070-exec-27] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是79a6e717-82c8-f810-ed1e-7914f0031ffb的连接已断开
-2019-12-26 09:48:35.540  INFO 4092 --- [http-nio-9070-exec-47] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.544  INFO 4092 --- [http-nio-9070-exec-47] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是68fe56bc-2b35-ea5d-d5c2-10aa472384f0的连接已断开
-2019-12-26 09:48:35.540  INFO 4092 --- [http-nio-9070-exec-12] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.545  INFO 4092 --- [http-nio-9070-exec-12] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是b3ddcf42-2262-9dde-7234-73c7dcf19374的连接已断开
-2019-12-26 09:48:35.539  INFO 4092 --- [http-nio-9070-exec-10] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是2969b9cd-2e59-80fe-c269-74fae66a48a1的连接已断开
-2019-12-26 09:48:35.540  INFO 4092 --- [http-nio-9070-exec-39] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是4aed55a4-bf97-6c61-b03c-ad20e086a16a的连接已断开
-2019-12-26 09:48:35.540  INFO 4092 --- [http-nio-9070-exec-20] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.541  INFO 4092 --- [http-nio-9070-exec-29] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.540  INFO 4092 --- [http-nio-9070-exec-50] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.545  INFO 4092 --- [http-nio-9070-exec-29] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是430b7843-ccbe-c6a1-2345-92a151f58044的连接已断开
-2019-12-26 09:48:35.545  INFO 4092 --- [http-nio-9070-exec-50] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是55abeb69-3bec-4d8e-9418-8eaa1aeefe4d的连接已断开
-2019-12-26 09:48:35.541  INFO 4092 --- [http-nio-9070-exec-34] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.545  INFO 4092 --- [http-nio-9070-exec-45] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.545  INFO 4092 --- [http-nio-9070-exec-34] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是b4f44483-1f4b-4197-c6f1-fef4834d1dfe的连接已断开
-2019-12-26 09:48:35.545  INFO 4092 --- [http-nio-9070-exec-8] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.540  INFO 4092 --- [http-nio-9070-exec-32] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.542  INFO 4092 --- [http-nio-9070-exec-42] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是87d25bd0-c23e-dac9-0015-29b4a957b6a5的连接已断开
-2019-12-26 09:48:35.542  INFO 4092 --- [http-nio-9070-exec-23] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.540  INFO 4092 --- [http-nio-9070-exec-40] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.540  INFO 4092 --- [http-nio-9070-exec-62] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.545  INFO 4092 --- [http-nio-9070-exec-20] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是7e70a307-93a4-de25-402c-5374a90e62c5的连接已断开
-2019-12-26 09:48:35.545  INFO 4092 --- [http-nio-9070-exec-45] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是62d04f40-7de1-7414-d965-37a9231af9f7的连接已断开
-2019-12-26 09:48:35.545  INFO 4092 --- [http-nio-9070-exec-51] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.541  INFO 4092 --- [http-nio-9070-exec-46] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是5a82431a-03fe-a5f1-534e-98f636e0277f的连接已断开
-2019-12-26 09:48:35.550  INFO 4092 --- [http-nio-9070-exec-51] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是0515c445-0f5f-55fa-9eb6-b6c498422635的连接已断开
-2019-12-26 09:48:35.541  INFO 4092 --- [http-nio-9070-exec-28] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.545  INFO 4092 --- [http-nio-9070-exec-41] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.550  INFO 4092 --- [http-nio-9070-exec-28] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是db624afa-dc2f-58e3-efd5-2729e9bebeb3的连接已断开
-2019-12-26 09:48:35.550  INFO 4092 --- [http-nio-9070-exec-41] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是196bfb34-05bb-4a68-d649-0b4d85719ebc的连接已断开
-2019-12-26 09:48:35.545  INFO 4092 --- [http-nio-9070-exec-14] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.550  INFO 4092 --- [http-nio-9070-exec-14] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是0b8e3b7e-bf1b-5f6f-cc0c-5fea0c1e96b0的连接已断开
-2019-12-26 09:48:35.545  INFO 4092 --- [http-nio-9070-exec-38] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.545  INFO 4092 --- [http-nio-9070-exec-8] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是45ed9036-62e4-8707-b5a1-3dba062d6f9e的连接已断开
-2019-12-26 09:48:35.545  INFO 4092 --- [http-nio-9070-exec-32] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是67d22e58-4bef-a646-be34-42561dfbb5bc的连接已断开
-2019-12-26 09:48:35.551  INFO 4092 --- [http-nio-9070-exec-38] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是7dfc0737-3dc5-d460-c5a2-c629479c8223的连接已断开
-2019-12-26 09:48:35.545  INFO 4092 --- [http-nio-9070-exec-55] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.551  INFO 4092 --- [http-nio-9070-exec-55] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是2de901d8-683a-2905-a1c3-de550b5e60d8的连接已断开
-2019-12-26 09:48:35.545  INFO 4092 --- [http-nio-9070-exec-23] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是07bf5d78-de59-6ebd-5ca3-736eceb575a6的连接已断开
-2019-12-26 09:48:35.545  INFO 4092 --- [http-nio-9070-exec-30] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.545  INFO 4092 --- [http-nio-9070-exec-13] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.551  INFO 4092 --- [http-nio-9070-exec-30] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是6a74718e-111b-1d3d-969d-a90947f09b2f的连接已断开
-2019-12-26 09:48:35.552  INFO 4092 --- [http-nio-9070-exec-13] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是c2754847-8dd6-c32c-8c7e-c42e13d6e38d的连接已断开
-2019-12-26 09:48:35.545  INFO 4092 --- [http-nio-9070-exec-40] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是dd8843db-ab61-d4d9-49b2-1eb9aa6ea45c的连接已断开
-2019-12-26 09:48:35.545  INFO 4092 --- [http-nio-9070-exec-9] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.552  INFO 4092 --- [http-nio-9070-exec-9] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是e2c38d97-6159-632b-0de8-2d1b7d184ab0的连接已断开
-2019-12-26 09:48:35.545  INFO 4092 --- [http-nio-9070-exec-56] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.552  INFO 4092 --- [http-nio-9070-exec-56] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是191086f4-194e-6749-3884-a726f90642f2的连接已断开
-2019-12-26 09:48:35.545  INFO 4092 --- [http-nio-9070-exec-16] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.555  INFO 4092 --- [http-nio-9070-exec-16] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是09ea064c-3bc6-7afd-596d-4991baaf04dc的连接已断开
-2019-12-26 09:48:35.545  INFO 4092 --- [http-nio-9070-exec-15] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.545  INFO 4092 --- [http-nio-9070-exec-62] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是27198735-85f0-f628-9dab-cc6a97dc15f3的连接已断开
-2019-12-26 09:48:35.555  INFO 4092 --- [http-nio-9070-exec-15] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是01be8852-f6c3-04b1-78a4-f978a9fed2e5的连接已断开
-2019-12-26 09:48:35.545  INFO 4092 --- [http-nio-9070-exec-59] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.556  INFO 4092 --- [http-nio-9070-exec-59] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是f891f656-8f88-f5a8-b645-46ea0da8d31a的连接已断开
-2019-12-26 09:48:35.545  INFO 4092 --- [http-nio-9070-exec-22] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.547  INFO 4092 --- [http-nio-9070-exec-52] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.556  INFO 4092 --- [http-nio-9070-exec-22] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是bfb18b3b-304c-93f3-528d-c30c64d23a5b的连接已断开
-2019-12-26 09:48:35.556  INFO 4092 --- [http-nio-9070-exec-52] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是f20cf161-1e4d-5202-8829-7da058a301e7的连接已断开
-2019-12-26 09:48:35.547  INFO 4092 --- [http-nio-9070-exec-19] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.548  INFO 4092 --- [http-nio-9070-exec-53] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.548  INFO 4092 --- [http-nio-9070-exec-60] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.556  INFO 4092 --- [http-nio-9070-exec-19] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是341b25b5-e662-caf9-1361-f38c308e2a1d的连接已断开
-2019-12-26 09:48:35.556  INFO 4092 --- [http-nio-9070-exec-53] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是0e6d3f06-e0eb-6884-31c1-69b0fe7b64dc的连接已断开
-2019-12-26 09:48:35.556  INFO 4092 --- [http-nio-9070-exec-60] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是e8984fc1-c95c-8a3b-b9d5-88c315e40960的连接已断开
-2019-12-26 09:48:35.548  INFO 4092 --- [http-nio-9070-exec-4] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.548  INFO 4092 --- [http-nio-9070-exec-36] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.557  INFO 4092 --- [http-nio-9070-exec-4] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是433c96f5-2b1c-113c-b0d3-f998c96bcf09的连接已断开
-2019-12-26 09:48:35.548  INFO 4092 --- [http-nio-9070-exec-17] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.549  INFO 4092 --- [http-nio-9070-exec-18] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.557  INFO 4092 --- [http-nio-9070-exec-36] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是3b396be1-174e-fbd1-1b51-d5e1f56e5701的连接已断开
-2019-12-26 09:48:35.557  INFO 4092 --- [http-nio-9070-exec-17] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是3543179d-e4e8-1912-f1eb-b1951dd60a0d的连接已断开
-2019-12-26 09:48:35.557  INFO 4092 --- [http-nio-9070-exec-18] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是56a23f3a-c880-d094-5149-55f0f71504c9的连接已断开
-2019-12-26 09:48:35.548  INFO 4092 --- [http-nio-9070-exec-33] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.548  INFO 4092 --- [http-nio-9070-exec-21] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接90394434879955
-2019-12-26 09:48:35.557  INFO 4092 --- [http-nio-9070-exec-33] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是1606eafd-32cc-a79b-e03d-fa2da81a9af4的连接已断开
-2019-12-26 09:48:35.557  INFO 4092 --- [http-nio-9070-exec-21] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 90394434879955的会话id是452b7c34-18ca-a235-273f-e459a3ce57f3的连接已断开
+2019-12-31 17:29:15.725  INFO 16876 --- [restartedMain] c.tim.iot.platform.auth.AuthApplication  : Starting AuthApplication on Tim-WJ with PID 16876 (E:\workspace\idea\iot-platform\iot-auth-server\target\classes started by tellt in E:\workspace\idea\iot-platform)
+2019-12-31 17:29:15.732  INFO 16876 --- [restartedMain] c.tim.iot.platform.auth.AuthApplication  : No active profile set, falling back to default profiles: default
+2019-12-31 17:29:15.778  INFO 16876 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-12-31 17:29:15.778  INFO 16876 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-12-31 17:29:16.911  INFO 16876 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9070 (http)
+2019-12-31 17:29:16.926  INFO 16876 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-31 17:29:16.926  INFO 16876 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-12-31 17:29:16.931  INFO 16876 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\tellt\AppData\Local\Android\sdk\platform-tools\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Go\bin;C:\Program Files\nodejs\;F:\Tools\androidStudio\android-ndk-r16b\;D:\maven3\bin\;C:\Users\tellt\AppData\Local\Android\Sdk\;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Users\tellt\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\tellt\AppData\Local\Programs\Python\Python37\;C:\Users\tellt\AppData\Local\Microsoft\WindowsApps;d:\go\workspace\bin;C:\Users\tellt\AppData\Roaming\npm;;.]
+2019-12-31 17:29:16.995  INFO 16876 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/auth]   : Initializing Spring embedded WebApplicationContext
+2019-12-31 17:29:16.996  INFO 16876 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1217 ms
+2019-12-31 17:29:17.150  INFO 16876 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-31 17:29:17.236  WARN 16876 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2019-12-31 17:29:17.265  INFO 16876 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/auth]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-31 17:29:17.265  INFO 16876 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-31 17:29:17.268  INFO 16876 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2019-12-31 17:29:17.270  INFO 16876 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9070 (http) with context path '/auth'
+2019-12-31 17:29:17.273  INFO 16876 --- [restartedMain] c.tim.iot.platform.auth.AuthApplication  : Started AuthApplication in 1.806 seconds (JVM running for 2.346)
+2019-12-31 17:37:04.898 ERROR 16876 --- [http-nio-9070-exec-3] c.t.i.platform.auth.web.AuthController   : 下发消息异常null
+2019-12-31 17:45:02.015  INFO 10008 --- [restartedMain] c.tim.iot.platform.auth.AuthApplication  : Starting AuthApplication on Tim-WJ with PID 10008 (E:\workspace\idea\iot-platform\iot-auth-server\target\classes started by tellt in E:\workspace\idea\iot-platform)
+2019-12-31 17:45:02.017  INFO 10008 --- [restartedMain] c.tim.iot.platform.auth.AuthApplication  : No active profile set, falling back to default profiles: default
+2019-12-31 17:45:02.039  INFO 10008 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-12-31 17:45:02.040  INFO 10008 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-12-31 17:45:03.055  INFO 10008 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9070 (http)
+2019-12-31 17:45:03.088  INFO 10008 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-31 17:45:03.089  INFO 10008 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-12-31 17:45:03.095  INFO 10008 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\tellt\AppData\Local\Android\sdk\platform-tools\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Go\bin;C:\Program Files\nodejs\;F:\Tools\androidStudio\android-ndk-r16b\;D:\maven3\bin\;C:\Users\tellt\AppData\Local\Android\Sdk\;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Users\tellt\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\tellt\AppData\Local\Programs\Python\Python37\;C:\Users\tellt\AppData\Local\Microsoft\WindowsApps;d:\go\workspace\bin;C:\Users\tellt\AppData\Roaming\npm;;.]
+2019-12-31 17:45:03.161  INFO 10008 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/auth]   : Initializing Spring embedded WebApplicationContext
+2019-12-31 17:45:03.161  INFO 10008 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1121 ms
+2019-12-31 17:45:03.336  INFO 10008 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-31 17:45:03.435  WARN 10008 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2019-12-31 17:45:03.468  INFO 10008 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/auth]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-31 17:45:03.468  INFO 10008 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-31 17:45:03.473  INFO 10008 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2019-12-31 17:45:03.474  INFO 10008 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9070 (http) with context path '/auth'
+2019-12-31 17:45:03.476  INFO 10008 --- [restartedMain] c.tim.iot.platform.auth.AuthApplication  : Started AuthApplication in 1.688 seconds (JVM running for 2.221)
+2019-12-31 17:49:55.479  INFO 10008 --- [http-nio-9070-exec-9] c.t.i.p.a.c.w.h.AuthHandshakeInterceptor :  --> 即将握手，设备id是 is 15013670701
+2019-12-31 17:49:55.560  INFO 10008 --- [http-nio-9070-exec-9] c.t.i.p.a.c.w.h.AuthHandshakeInterceptor :  --> 握手结束
+2019-12-31 17:49:55.569  INFO 10008 --- [http-nio-9070-exec-9] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701连接建立,插入缓存,会话id是045c6584-0416-e5e3-f7f9-62c80231c21c
+2019-12-31 17:49:55.569  INFO 10008 --- [http-nio-9070-exec-9] c.t.i.p.a.c.w.manager.SocketManager      :  --> 新添加连接 15013670701,会话id是045c6584-0416-e5e3-f7f9-62c80231c21c 
+2019-12-31 17:50:18.631  INFO 10008 --- [http-nio-9070-exec-10] c.t.i.p.a.c.w.manager.SocketManager      :  --> 获取15013670701的会话id045c6584-0416-e5e3-f7f9-62c80231c21c 
+2019-12-31 17:52:01.143  INFO 10008 --- [http-nio-9070-exec-2] c.t.i.p.a.c.w.h.AuthHandshakeInterceptor :  --> 即将握手，设备id是 is 15013670701
+2019-12-31 17:52:01.144  INFO 10008 --- [http-nio-9070-exec-2] c.t.i.p.a.c.w.manager.SocketManager      :  --> 获取15013670701的会话id045c6584-0416-e5e3-f7f9-62c80231c21c 
+2019-12-31 17:52:01.144  WARN 10008 --- [http-nio-9070-exec-2] c.t.i.p.a.c.w.h.AuthHandshakeHandler     :  --> 会话未断开,收到重复请求,请求的设备id是15013670701
+2019-12-31 17:52:01.146  INFO 10008 --- [http-nio-9070-exec-2] c.t.i.p.a.c.w.h.AuthHandshakeInterceptor :  --> 握手结束
+2019-12-31 17:52:01.147  INFO 10008 --- [http-nio-9070-exec-2] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701连接建立,插入缓存,会话id是6ddf736f-2c4a-a4ec-061b-8db1d06be3ee
+2019-12-31 17:52:01.147  INFO 10008 --- [http-nio-9070-exec-2] c.t.i.p.a.c.w.manager.SocketManager      :  --> 新添加连接 15013670701,会话id是6ddf736f-2c4a-a4ec-061b-8db1d06be3ee 
+2019-12-31 17:52:36.373  INFO 10008 --- [http-nio-9070-exec-3] c.t.i.p.a.c.w.manager.SocketManager      :  --> 获取15013670701的会话id6ddf736f-2c4a-a4ec-061b-8db1d06be3ee 
+2019-12-31 17:54:39.565  INFO 10008 --- [http-nio-9070-exec-5] c.t.i.p.a.c.w.h.AuthHandshakeInterceptor :  --> 即将握手，设备id是 is 15013670701
+2019-12-31 17:54:39.565  INFO 10008 --- [http-nio-9070-exec-5] c.t.i.p.a.c.w.manager.SocketManager      :  --> 获取15013670701的会话id6ddf736f-2c4a-a4ec-061b-8db1d06be3ee 
+2019-12-31 17:54:39.565  WARN 10008 --- [http-nio-9070-exec-5] c.t.i.p.a.c.w.h.AuthHandshakeHandler     :  --> 会话未断开,收到重复请求,请求的设备id是15013670701
+2019-12-31 17:54:39.567  INFO 10008 --- [http-nio-9070-exec-5] c.t.i.p.a.c.w.h.AuthHandshakeInterceptor :  --> 握手结束
+2019-12-31 17:54:39.568  INFO 10008 --- [http-nio-9070-exec-5] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701连接建立,插入缓存,会话id是73c2961f-351c-73aa-9a2f-7fe744e75783
+2019-12-31 17:54:39.568  INFO 10008 --- [http-nio-9070-exec-5] c.t.i.p.a.c.w.manager.SocketManager      :  --> 新添加连接 15013670701,会话id是73c2961f-351c-73aa-9a2f-7fe744e75783 
+2019-12-31 17:56:42.639  INFO 10008 --- [http-nio-9070-exec-6] c.t.i.p.a.c.w.h.AuthHandshakeInterceptor :  --> 即将握手，设备id是 is 15013670701
+2019-12-31 17:56:42.640  INFO 10008 --- [http-nio-9070-exec-6] c.t.i.p.a.c.w.manager.SocketManager      :  --> 获取15013670701的会话id73c2961f-351c-73aa-9a2f-7fe744e75783 
+2019-12-31 17:56:42.640  WARN 10008 --- [http-nio-9070-exec-6] c.t.i.p.a.c.w.h.AuthHandshakeHandler     :  --> 会话未断开,收到重复请求,请求的设备id是15013670701
+2019-12-31 17:56:42.642  INFO 10008 --- [http-nio-9070-exec-6] c.t.i.p.a.c.w.h.AuthHandshakeInterceptor :  --> 握手结束
+2019-12-31 17:56:42.643  INFO 10008 --- [http-nio-9070-exec-6] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701连接建立,插入缓存,会话id是4e109e6e-2370-29e5-6b77-6f4455d8e790
+2019-12-31 17:56:42.643  INFO 10008 --- [http-nio-9070-exec-6] c.t.i.p.a.c.w.manager.SocketManager      :  --> 新添加连接 15013670701,会话id是4e109e6e-2370-29e5-6b77-6f4455d8e790 
+2019-12-31 17:58:45.696  INFO 10008 --- [http-nio-9070-exec-7] c.t.i.p.a.c.w.h.AuthHandshakeInterceptor :  --> 即将握手，设备id是 is 15013670701
+2019-12-31 17:58:45.697  INFO 10008 --- [http-nio-9070-exec-7] c.t.i.p.a.c.w.manager.SocketManager      :  --> 获取15013670701的会话id4e109e6e-2370-29e5-6b77-6f4455d8e790 
+2019-12-31 17:58:45.698  WARN 10008 --- [http-nio-9070-exec-7] c.t.i.p.a.c.w.h.AuthHandshakeHandler     :  --> 会话未断开,收到重复请求,请求的设备id是15013670701
+2019-12-31 17:58:45.701  INFO 10008 --- [http-nio-9070-exec-7] c.t.i.p.a.c.w.h.AuthHandshakeInterceptor :  --> 握手结束
+2019-12-31 17:58:45.703  INFO 10008 --- [http-nio-9070-exec-7] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701连接建立,插入缓存,会话id是20a2d433-1319-369c-99e2-95bb026d5282
+2019-12-31 17:58:45.703  INFO 10008 --- [http-nio-9070-exec-7] c.t.i.p.a.c.w.manager.SocketManager      :  --> 新添加连接 15013670701,会话id是20a2d433-1319-369c-99e2-95bb026d5282 
+2019-12-31 18:00:48.737  INFO 10008 --- [http-nio-9070-exec-8] c.t.i.p.a.c.w.h.AuthHandshakeInterceptor :  --> 即将握手，设备id是 is 15013670701
+2019-12-31 18:00:48.738  INFO 10008 --- [http-nio-9070-exec-8] c.t.i.p.a.c.w.manager.SocketManager      :  --> 获取15013670701的会话id20a2d433-1319-369c-99e2-95bb026d5282 
+2019-12-31 18:00:48.738  WARN 10008 --- [http-nio-9070-exec-8] c.t.i.p.a.c.w.h.AuthHandshakeHandler     :  --> 会话未断开,收到重复请求,请求的设备id是15013670701
+2019-12-31 18:00:48.740  INFO 10008 --- [http-nio-9070-exec-8] c.t.i.p.a.c.w.h.AuthHandshakeInterceptor :  --> 握手结束
+2019-12-31 18:00:48.741  INFO 10008 --- [http-nio-9070-exec-8] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701连接建立,插入缓存,会话id是7da972a4-6c6b-8629-cd09-1023a7cb7e36
+2019-12-31 18:00:48.741  INFO 10008 --- [http-nio-9070-exec-8] c.t.i.p.a.c.w.manager.SocketManager      :  --> 新添加连接 15013670701,会话id是7da972a4-6c6b-8629-cd09-1023a7cb7e36 
+2019-12-31 18:02:51.782  INFO 10008 --- [http-nio-9070-exec-9] c.t.i.p.a.c.w.h.AuthHandshakeInterceptor :  --> 即将握手，设备id是 is 15013670701
+2019-12-31 18:02:51.783  INFO 10008 --- [http-nio-9070-exec-9] c.t.i.p.a.c.w.manager.SocketManager      :  --> 获取15013670701的会话id7da972a4-6c6b-8629-cd09-1023a7cb7e36 
+2019-12-31 18:02:51.783  WARN 10008 --- [http-nio-9070-exec-9] c.t.i.p.a.c.w.h.AuthHandshakeHandler     :  --> 会话未断开,收到重复请求,请求的设备id是15013670701
+2019-12-31 18:02:51.788  INFO 10008 --- [http-nio-9070-exec-9] c.t.i.p.a.c.w.h.AuthHandshakeInterceptor :  --> 握手结束
+2019-12-31 18:02:51.790  INFO 10008 --- [http-nio-9070-exec-9] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701连接建立,插入缓存,会话id是2cdf4f67-533e-18cf-9d04-4a979133ede0
+2019-12-31 18:02:51.791  INFO 10008 --- [http-nio-9070-exec-9] c.t.i.p.a.c.w.manager.SocketManager      :  --> 新添加连接 15013670701,会话id是2cdf4f67-533e-18cf-9d04-4a979133ede0 
+2019-12-31 18:04:54.826  INFO 10008 --- [http-nio-9070-exec-10] c.t.i.p.a.c.w.h.AuthHandshakeInterceptor :  --> 即将握手，设备id是 is 15013670701
+2019-12-31 18:04:54.828  INFO 10008 --- [http-nio-9070-exec-10] c.t.i.p.a.c.w.manager.SocketManager      :  --> 获取15013670701的会话id2cdf4f67-533e-18cf-9d04-4a979133ede0 
+2019-12-31 18:04:54.828  WARN 10008 --- [http-nio-9070-exec-10] c.t.i.p.a.c.w.h.AuthHandshakeHandler     :  --> 会话未断开,收到重复请求,请求的设备id是15013670701
+2019-12-31 18:04:54.832  INFO 10008 --- [http-nio-9070-exec-10] c.t.i.p.a.c.w.h.AuthHandshakeInterceptor :  --> 握手结束
+2019-12-31 18:04:54.834  INFO 10008 --- [http-nio-9070-exec-10] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701连接建立,插入缓存,会话id是2f5ac328-6410-2678-35c2-b351d512c151
+2019-12-31 18:04:54.834  INFO 10008 --- [http-nio-9070-exec-10] c.t.i.p.a.c.w.manager.SocketManager      :  --> 新添加连接 15013670701,会话id是2f5ac328-6410-2678-35c2-b351d512c151 
+2019-12-31 18:06:57.900  INFO 10008 --- [http-nio-9070-exec-1] c.t.i.p.a.c.w.h.AuthHandshakeInterceptor :  --> 即将握手，设备id是 is 15013670701
+2019-12-31 18:06:57.902  INFO 10008 --- [http-nio-9070-exec-1] c.t.i.p.a.c.w.manager.SocketManager      :  --> 获取15013670701的会话id2f5ac328-6410-2678-35c2-b351d512c151 
+2019-12-31 18:06:57.902  WARN 10008 --- [http-nio-9070-exec-1] c.t.i.p.a.c.w.h.AuthHandshakeHandler     :  --> 会话未断开,收到重复请求,请求的设备id是15013670701
+2019-12-31 18:06:57.906  INFO 10008 --- [http-nio-9070-exec-1] c.t.i.p.a.c.w.h.AuthHandshakeInterceptor :  --> 握手结束
+2019-12-31 18:06:57.908  INFO 10008 --- [http-nio-9070-exec-1] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701连接建立,插入缓存,会话id是0053fb4d-9e43-a4e9-32c8-e0ae5d25f6c8
+2019-12-31 18:06:57.909  INFO 10008 --- [http-nio-9070-exec-1] c.t.i.p.a.c.w.manager.SocketManager      :  --> 新添加连接 15013670701,会话id是0053fb4d-9e43-a4e9-32c8-e0ae5d25f6c8 
+2019-12-31 18:09:00.956  INFO 10008 --- [http-nio-9070-exec-2] c.t.i.p.a.c.w.h.AuthHandshakeInterceptor :  --> 即将握手，设备id是 is 15013670701
+2019-12-31 18:09:00.957  INFO 10008 --- [http-nio-9070-exec-2] c.t.i.p.a.c.w.manager.SocketManager      :  --> 获取15013670701的会话id0053fb4d-9e43-a4e9-32c8-e0ae5d25f6c8 
+2019-12-31 18:09:00.957  WARN 10008 --- [http-nio-9070-exec-2] c.t.i.p.a.c.w.h.AuthHandshakeHandler     :  --> 会话未断开,收到重复请求,请求的设备id是15013670701
+2019-12-31 18:09:00.960  INFO 10008 --- [http-nio-9070-exec-2] c.t.i.p.a.c.w.h.AuthHandshakeInterceptor :  --> 握手结束
+2019-12-31 18:09:00.961  INFO 10008 --- [http-nio-9070-exec-2] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701连接建立,插入缓存,会话id是1d57f79a-9ea4-c12d-d17b-aa2943f1df56
+2019-12-31 18:09:00.961  INFO 10008 --- [http-nio-9070-exec-2] c.t.i.p.a.c.w.manager.SocketManager      :  --> 新添加连接 15013670701,会话id是1d57f79a-9ea4-c12d-d17b-aa2943f1df56 
+2019-12-31 18:11:04.038  INFO 10008 --- [http-nio-9070-exec-3] c.t.i.p.a.c.w.h.AuthHandshakeInterceptor :  --> 即将握手，设备id是 is 15013670701
+2019-12-31 18:11:04.039  INFO 10008 --- [http-nio-9070-exec-3] c.t.i.p.a.c.w.manager.SocketManager      :  --> 获取15013670701的会话id1d57f79a-9ea4-c12d-d17b-aa2943f1df56 
+2019-12-31 18:11:04.039  WARN 10008 --- [http-nio-9070-exec-3] c.t.i.p.a.c.w.h.AuthHandshakeHandler     :  --> 会话未断开,收到重复请求,请求的设备id是15013670701
+2019-12-31 18:11:04.040  INFO 10008 --- [http-nio-9070-exec-3] c.t.i.p.a.c.w.h.AuthHandshakeInterceptor :  --> 握手结束
+2019-12-31 18:11:04.041  INFO 10008 --- [http-nio-9070-exec-3] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701连接建立,插入缓存,会话id是c6b0f347-0fb1-8cd2-4859-cb0f613434fe
+2019-12-31 18:11:04.041  INFO 10008 --- [http-nio-9070-exec-3] c.t.i.p.a.c.w.manager.SocketManager      :  --> 新添加连接 15013670701,会话id是c6b0f347-0fb1-8cd2-4859-cb0f613434fe 
+2019-12-31 18:13:07.121  INFO 10008 --- [http-nio-9070-exec-4] c.t.i.p.a.c.w.h.AuthHandshakeInterceptor :  --> 即将握手，设备id是 is 15013670701
+2019-12-31 18:13:07.122  INFO 10008 --- [http-nio-9070-exec-4] c.t.i.p.a.c.w.manager.SocketManager      :  --> 获取15013670701的会话idc6b0f347-0fb1-8cd2-4859-cb0f613434fe 
+2019-12-31 18:13:07.123  WARN 10008 --- [http-nio-9070-exec-4] c.t.i.p.a.c.w.h.AuthHandshakeHandler     :  --> 会话未断开,收到重复请求,请求的设备id是15013670701
+2019-12-31 18:13:07.126  INFO 10008 --- [http-nio-9070-exec-4] c.t.i.p.a.c.w.h.AuthHandshakeInterceptor :  --> 握手结束
+2019-12-31 18:13:07.128  INFO 10008 --- [http-nio-9070-exec-4] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701连接建立,插入缓存,会话id是0507bd3a-6051-0270-73bd-eb1a2817d676
+2019-12-31 18:13:07.128  INFO 10008 --- [http-nio-9070-exec-4] c.t.i.p.a.c.w.manager.SocketManager      :  --> 新添加连接 15013670701,会话id是0507bd3a-6051-0270-73bd-eb1a2817d676 
+2019-12-31 18:15:10.179  INFO 10008 --- [http-nio-9070-exec-5] c.t.i.p.a.c.w.h.AuthHandshakeInterceptor :  --> 即将握手，设备id是 is 15013670701
+2019-12-31 18:15:10.180  INFO 10008 --- [http-nio-9070-exec-5] c.t.i.p.a.c.w.manager.SocketManager      :  --> 获取15013670701的会话id0507bd3a-6051-0270-73bd-eb1a2817d676 
+2019-12-31 18:15:10.180  WARN 10008 --- [http-nio-9070-exec-5] c.t.i.p.a.c.w.h.AuthHandshakeHandler     :  --> 会话未断开,收到重复请求,请求的设备id是15013670701
+2019-12-31 18:15:10.184  INFO 10008 --- [http-nio-9070-exec-5] c.t.i.p.a.c.w.h.AuthHandshakeInterceptor :  --> 握手结束
+2019-12-31 18:15:10.186  INFO 10008 --- [http-nio-9070-exec-5] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701连接建立,插入缓存,会话id是ee794f3a-b8f9-e19c-b325-7f3db038a1cd
+2019-12-31 18:15:10.186  INFO 10008 --- [http-nio-9070-exec-5] c.t.i.p.a.c.w.manager.SocketManager      :  --> 新添加连接 15013670701,会话id是ee794f3a-b8f9-e19c-b325-7f3db038a1cd 
+2019-12-31 18:17:16.301  INFO 10008 --- [http-nio-9070-exec-6] c.t.i.p.a.c.w.h.AuthHandshakeInterceptor :  --> 即将握手，设备id是 is 15013670701
+2019-12-31 18:17:16.302  INFO 10008 --- [http-nio-9070-exec-6] c.t.i.p.a.c.w.manager.SocketManager      :  --> 获取15013670701的会话idee794f3a-b8f9-e19c-b325-7f3db038a1cd 
+2019-12-31 18:17:16.303  WARN 10008 --- [http-nio-9070-exec-6] c.t.i.p.a.c.w.h.AuthHandshakeHandler     :  --> 会话未断开,收到重复请求,请求的设备id是15013670701
+2019-12-31 18:17:16.306  INFO 10008 --- [http-nio-9070-exec-6] c.t.i.p.a.c.w.h.AuthHandshakeInterceptor :  --> 握手结束
+2019-12-31 18:17:16.308  INFO 10008 --- [http-nio-9070-exec-6] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701连接建立,插入缓存,会话id是28bf94df-2666-eefe-130a-5b4f11e8d0b9
+2019-12-31 18:17:16.309  INFO 10008 --- [http-nio-9070-exec-6] c.t.i.p.a.c.w.manager.SocketManager      :  --> 新添加连接 15013670701,会话id是28bf94df-2666-eefe-130a-5b4f11e8d0b9 
+2019-12-31 18:19:19.346  INFO 10008 --- [http-nio-9070-exec-7] c.t.i.p.a.c.w.h.AuthHandshakeInterceptor :  --> 即将握手，设备id是 is 15013670701
+2019-12-31 18:19:19.348  INFO 10008 --- [http-nio-9070-exec-7] c.t.i.p.a.c.w.manager.SocketManager      :  --> 获取15013670701的会话id28bf94df-2666-eefe-130a-5b4f11e8d0b9 
+2019-12-31 18:19:19.348  WARN 10008 --- [http-nio-9070-exec-7] c.t.i.p.a.c.w.h.AuthHandshakeHandler     :  --> 会话未断开,收到重复请求,请求的设备id是15013670701
+2019-12-31 18:19:19.351  INFO 10008 --- [http-nio-9070-exec-7] c.t.i.p.a.c.w.h.AuthHandshakeInterceptor :  --> 握手结束
+2019-12-31 18:19:19.353  INFO 10008 --- [http-nio-9070-exec-7] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701连接建立,插入缓存,会话id是ab024961-1d66-01ea-abb5-deb8f01e917d
+2019-12-31 18:19:19.354  INFO 10008 --- [http-nio-9070-exec-7] c.t.i.p.a.c.w.manager.SocketManager      :  --> 新添加连接 15013670701,会话id是ab024961-1d66-01ea-abb5-deb8f01e917d 
+2019-12-31 18:21:22.548  INFO 10008 --- [http-nio-9070-exec-8] c.t.i.p.a.c.w.h.AuthHandshakeInterceptor :  --> 即将握手，设备id是 is 15013670701
+2019-12-31 18:21:22.549  INFO 10008 --- [http-nio-9070-exec-8] c.t.i.p.a.c.w.manager.SocketManager      :  --> 获取15013670701的会话idab024961-1d66-01ea-abb5-deb8f01e917d 
+2019-12-31 18:21:22.550  WARN 10008 --- [http-nio-9070-exec-8] c.t.i.p.a.c.w.h.AuthHandshakeHandler     :  --> 会话未断开,收到重复请求,请求的设备id是15013670701
+2019-12-31 18:21:22.556  INFO 10008 --- [http-nio-9070-exec-8] c.t.i.p.a.c.w.h.AuthHandshakeInterceptor :  --> 握手结束
+2019-12-31 18:21:22.558  INFO 10008 --- [http-nio-9070-exec-8] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701连接建立,插入缓存,会话id是ca8f46cb-1e6b-cc2c-49c1-15475c110c7a
+2019-12-31 18:21:22.559  INFO 10008 --- [http-nio-9070-exec-8] c.t.i.p.a.c.w.manager.SocketManager      :  --> 新添加连接 15013670701,会话id是ca8f46cb-1e6b-cc2c-49c1-15475c110c7a 
+2019-12-31 18:23:25.692  INFO 10008 --- [http-nio-9070-exec-9] c.t.i.p.a.c.w.h.AuthHandshakeInterceptor :  --> 即将握手，设备id是 is 15013670701
+2019-12-31 18:23:25.692  INFO 10008 --- [http-nio-9070-exec-9] c.t.i.p.a.c.w.manager.SocketManager      :  --> 获取15013670701的会话idca8f46cb-1e6b-cc2c-49c1-15475c110c7a 
+2019-12-31 18:23:25.692  WARN 10008 --- [http-nio-9070-exec-9] c.t.i.p.a.c.w.h.AuthHandshakeHandler     :  --> 会话未断开,收到重复请求,请求的设备id是15013670701
+2019-12-31 18:23:25.693  INFO 10008 --- [http-nio-9070-exec-9] c.t.i.p.a.c.w.h.AuthHandshakeInterceptor :  --> 握手结束
+2019-12-31 18:23:25.694  INFO 10008 --- [http-nio-9070-exec-9] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701连接建立,插入缓存,会话id是7486f4a6-b7ce-8651-4d14-b55dda662051
+2019-12-31 18:23:25.694  INFO 10008 --- [http-nio-9070-exec-9] c.t.i.p.a.c.w.manager.SocketManager      :  --> 新添加连接 15013670701,会话id是7486f4a6-b7ce-8651-4d14-b55dda662051 
+2019-12-31 18:25:28.874  INFO 10008 --- [http-nio-9070-exec-10] c.t.i.p.a.c.w.h.AuthHandshakeInterceptor :  --> 即将握手，设备id是 is 15013670701
+2019-12-31 18:25:28.876  INFO 10008 --- [http-nio-9070-exec-10] c.t.i.p.a.c.w.manager.SocketManager      :  --> 获取15013670701的会话id7486f4a6-b7ce-8651-4d14-b55dda662051 
+2019-12-31 18:25:28.876  WARN 10008 --- [http-nio-9070-exec-10] c.t.i.p.a.c.w.h.AuthHandshakeHandler     :  --> 会话未断开,收到重复请求,请求的设备id是15013670701
+2019-12-31 18:25:28.880  INFO 10008 --- [http-nio-9070-exec-10] c.t.i.p.a.c.w.h.AuthHandshakeInterceptor :  --> 握手结束
+2019-12-31 18:25:28.882  INFO 10008 --- [http-nio-9070-exec-10] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701连接建立,插入缓存,会话id是b6209503-ab03-6607-d48f-6c4fbe7019dd
+2019-12-31 18:25:28.883  INFO 10008 --- [http-nio-9070-exec-10] c.t.i.p.a.c.w.manager.SocketManager      :  --> 新添加连接 15013670701,会话id是b6209503-ab03-6607-d48f-6c4fbe7019dd 
+2019-12-31 18:27:31.914  INFO 10008 --- [http-nio-9070-exec-1] c.t.i.p.a.c.w.h.AuthHandshakeInterceptor :  --> 即将握手，设备id是 is 15013670701
+2019-12-31 18:27:31.915  INFO 10008 --- [http-nio-9070-exec-1] c.t.i.p.a.c.w.manager.SocketManager      :  --> 获取15013670701的会话idb6209503-ab03-6607-d48f-6c4fbe7019dd 
+2019-12-31 18:27:31.915  WARN 10008 --- [http-nio-9070-exec-1] c.t.i.p.a.c.w.h.AuthHandshakeHandler     :  --> 会话未断开,收到重复请求,请求的设备id是15013670701
+2019-12-31 18:27:31.919  INFO 10008 --- [http-nio-9070-exec-1] c.t.i.p.a.c.w.h.AuthHandshakeInterceptor :  --> 握手结束
+2019-12-31 18:27:31.921  INFO 10008 --- [http-nio-9070-exec-1] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701连接建立,插入缓存,会话id是834cf45d-7226-cb5e-17c8-05b0bcf18362
+2019-12-31 18:27:31.921  INFO 10008 --- [http-nio-9070-exec-1] c.t.i.p.a.c.w.manager.SocketManager      :  --> 新添加连接 15013670701,会话id是834cf45d-7226-cb5e-17c8-05b0bcf18362 
+2019-12-31 18:29:35.047  INFO 10008 --- [http-nio-9070-exec-2] c.t.i.p.a.c.w.h.AuthHandshakeInterceptor :  --> 即将握手，设备id是 is 15013670701
+2019-12-31 18:29:35.048  INFO 10008 --- [http-nio-9070-exec-2] c.t.i.p.a.c.w.manager.SocketManager      :  --> 获取15013670701的会话id834cf45d-7226-cb5e-17c8-05b0bcf18362 
+2019-12-31 18:29:35.049  WARN 10008 --- [http-nio-9070-exec-2] c.t.i.p.a.c.w.h.AuthHandshakeHandler     :  --> 会话未断开,收到重复请求,请求的设备id是15013670701
+2019-12-31 18:29:35.053  INFO 10008 --- [http-nio-9070-exec-2] c.t.i.p.a.c.w.h.AuthHandshakeInterceptor :  --> 握手结束
+2019-12-31 18:29:35.056  INFO 10008 --- [http-nio-9070-exec-2] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701连接建立,插入缓存,会话id是b79dbf57-e3a0-d470-1570-6a88be4acfee
+2019-12-31 18:29:35.056  INFO 10008 --- [http-nio-9070-exec-2] c.t.i.p.a.c.w.manager.SocketManager      :  --> 新添加连接 15013670701,会话id是b79dbf57-e3a0-d470-1570-6a88be4acfee 
+2019-12-31 18:31:38.105  INFO 10008 --- [http-nio-9070-exec-3] c.t.i.p.a.c.w.h.AuthHandshakeInterceptor :  --> 即将握手，设备id是 is 15013670701
+2019-12-31 18:31:38.105  INFO 10008 --- [http-nio-9070-exec-3] c.t.i.p.a.c.w.manager.SocketManager      :  --> 获取15013670701的会话idb79dbf57-e3a0-d470-1570-6a88be4acfee 
+2019-12-31 18:31:38.105  WARN 10008 --- [http-nio-9070-exec-3] c.t.i.p.a.c.w.h.AuthHandshakeHandler     :  --> 会话未断开,收到重复请求,请求的设备id是15013670701
+2019-12-31 18:31:38.107  INFO 10008 --- [http-nio-9070-exec-3] c.t.i.p.a.c.w.h.AuthHandshakeInterceptor :  --> 握手结束
+2019-12-31 18:31:38.108  INFO 10008 --- [http-nio-9070-exec-3] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701连接建立,插入缓存,会话id是59dcdcfb-2fd5-b95a-705b-33e9f72014b1
+2019-12-31 18:31:38.108  INFO 10008 --- [http-nio-9070-exec-3] c.t.i.p.a.c.w.manager.SocketManager      :  --> 新添加连接 15013670701,会话id是59dcdcfb-2fd5-b95a-705b-33e9f72014b1 
+2019-12-31 18:33:41.290  INFO 10008 --- [http-nio-9070-exec-4] c.t.i.p.a.c.w.h.AuthHandshakeInterceptor :  --> 即将握手，设备id是 is 15013670701
+2019-12-31 18:33:41.291  INFO 10008 --- [http-nio-9070-exec-4] c.t.i.p.a.c.w.manager.SocketManager      :  --> 获取15013670701的会话id59dcdcfb-2fd5-b95a-705b-33e9f72014b1 
+2019-12-31 18:33:41.291  WARN 10008 --- [http-nio-9070-exec-4] c.t.i.p.a.c.w.h.AuthHandshakeHandler     :  --> 会话未断开,收到重复请求,请求的设备id是15013670701
+2019-12-31 18:33:41.295  INFO 10008 --- [http-nio-9070-exec-4] c.t.i.p.a.c.w.h.AuthHandshakeInterceptor :  --> 握手结束
+2019-12-31 18:33:41.297  INFO 10008 --- [http-nio-9070-exec-4] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701连接建立,插入缓存,会话id是20b3a476-1104-42c1-943a-0b0737d1566e
+2019-12-31 18:33:41.297  INFO 10008 --- [http-nio-9070-exec-4] c.t.i.p.a.c.w.manager.SocketManager      :  --> 新添加连接 15013670701,会话id是20b3a476-1104-42c1-943a-0b0737d1566e 
+2019-12-31 18:35:44.406  INFO 10008 --- [http-nio-9070-exec-5] c.t.i.p.a.c.w.h.AuthHandshakeInterceptor :  --> 即将握手，设备id是 is 15013670701
+2019-12-31 18:35:44.408  INFO 10008 --- [http-nio-9070-exec-5] c.t.i.p.a.c.w.manager.SocketManager      :  --> 获取15013670701的会话id20b3a476-1104-42c1-943a-0b0737d1566e 
+2019-12-31 18:35:44.408  WARN 10008 --- [http-nio-9070-exec-5] c.t.i.p.a.c.w.h.AuthHandshakeHandler     :  --> 会话未断开,收到重复请求,请求的设备id是15013670701
+2019-12-31 18:35:44.411  INFO 10008 --- [http-nio-9070-exec-5] c.t.i.p.a.c.w.h.AuthHandshakeInterceptor :  --> 握手结束
+2019-12-31 18:35:44.413  INFO 10008 --- [http-nio-9070-exec-5] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701连接建立,插入缓存,会话id是38423b73-43e2-0668-1e75-3ed380442dc1
+2019-12-31 18:35:44.413  INFO 10008 --- [http-nio-9070-exec-5] c.t.i.p.a.c.w.manager.SocketManager      :  --> 新添加连接 15013670701,会话id是38423b73-43e2-0668-1e75-3ed380442dc1 
+2019-12-31 18:37:47.460  INFO 10008 --- [http-nio-9070-exec-6] c.t.i.p.a.c.w.h.AuthHandshakeInterceptor :  --> 即将握手，设备id是 is 15013670701
+2019-12-31 18:37:47.461  INFO 10008 --- [http-nio-9070-exec-6] c.t.i.p.a.c.w.manager.SocketManager      :  --> 获取15013670701的会话id38423b73-43e2-0668-1e75-3ed380442dc1 
+2019-12-31 18:37:47.461  WARN 10008 --- [http-nio-9070-exec-6] c.t.i.p.a.c.w.h.AuthHandshakeHandler     :  --> 会话未断开,收到重复请求,请求的设备id是15013670701
+2019-12-31 18:37:47.465  INFO 10008 --- [http-nio-9070-exec-6] c.t.i.p.a.c.w.h.AuthHandshakeInterceptor :  --> 握手结束
+2019-12-31 18:37:47.467  INFO 10008 --- [http-nio-9070-exec-6] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701连接建立,插入缓存,会话id是459a9882-3391-468e-7ac6-8384daf91433
+2019-12-31 18:37:47.467  INFO 10008 --- [http-nio-9070-exec-6] c.t.i.p.a.c.w.manager.SocketManager      :  --> 新添加连接 15013670701,会话id是459a9882-3391-468e-7ac6-8384daf91433 
+2019-12-31 18:39:50.533  INFO 10008 --- [http-nio-9070-exec-7] c.t.i.p.a.c.w.h.AuthHandshakeInterceptor :  --> 即将握手，设备id是 is 15013670701
+2019-12-31 18:39:50.534  INFO 10008 --- [http-nio-9070-exec-7] c.t.i.p.a.c.w.manager.SocketManager      :  --> 获取15013670701的会话id459a9882-3391-468e-7ac6-8384daf91433 
+2019-12-31 18:39:50.534  WARN 10008 --- [http-nio-9070-exec-7] c.t.i.p.a.c.w.h.AuthHandshakeHandler     :  --> 会话未断开,收到重复请求,请求的设备id是15013670701
+2019-12-31 18:39:50.536  INFO 10008 --- [http-nio-9070-exec-7] c.t.i.p.a.c.w.h.AuthHandshakeInterceptor :  --> 握手结束
+2019-12-31 18:39:50.538  INFO 10008 --- [http-nio-9070-exec-7] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701连接建立,插入缓存,会话id是a8636f19-f6ee-0f6f-ce80-9f4663593f15
+2019-12-31 18:39:50.538  INFO 10008 --- [http-nio-9070-exec-7] c.t.i.p.a.c.w.manager.SocketManager      :  --> 新添加连接 15013670701,会话id是a8636f19-f6ee-0f6f-ce80-9f4663593f15 
+2019-12-31 18:41:51.846  INFO 10008 --- [http-nio-9070-exec-2] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701 连接,会话id是1d57f79a-9ea4-c12d-d17b-aa2943f1df56,异常信息:null!
+2019-12-31 18:41:51.849  INFO 10008 --- [http-nio-9070-exec-23] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701 连接,会话id是a8636f19-f6ee-0f6f-ce80-9f4663593f15,异常信息:null!
+2019-12-31 18:41:51.846  INFO 10008 --- [http-nio-9070-exec-17] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701 连接,会话id是b79dbf57-e3a0-d470-1570-6a88be4acfee,异常信息:null!
+2019-12-31 18:41:51.849  INFO 10008 --- [http-nio-9070-exec-13] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701 连接,会话id是7486f4a6-b7ce-8651-4d14-b55dda662051,异常信息:null!
+2019-12-31 18:41:51.849  INFO 10008 --- [http-nio-9070-exec-22] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701 连接,会话id是59dcdcfb-2fd5-b95a-705b-33e9f72014b1,异常信息:null!
+2019-12-31 18:41:51.850  INFO 10008 --- [http-nio-9070-exec-14] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701 连接,会话id是459a9882-3391-468e-7ac6-8384daf91433,异常信息:null!
+2019-12-31 18:41:51.849  INFO 10008 --- [http-nio-9070-exec-20] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701 连接,会话id是2cdf4f67-533e-18cf-9d04-4a979133ede0,异常信息:null!
+2019-12-31 18:41:51.846  INFO 10008 --- [http-nio-9070-exec-18] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701 连接,会话id是0053fb4d-9e43-a4e9-32c8-e0ae5d25f6c8,异常信息:null!
+2019-12-31 18:41:51.849  INFO 10008 --- [http-nio-9070-exec-11] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701 连接,会话id是73c2961f-351c-73aa-9a2f-7fe744e75783,异常信息:null!
+2019-12-31 18:41:51.850  INFO 10008 --- [http-nio-9070-exec-4] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701 连接,会话id是0507bd3a-6051-0270-73bd-eb1a2817d676,异常信息:null!
+2019-12-31 18:41:51.849  INFO 10008 --- [http-nio-9070-exec-24] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701 连接,会话id是38423b73-43e2-0668-1e75-3ed380442dc1,异常信息:null!
+2019-12-31 18:41:51.850  INFO 10008 --- [http-nio-9070-exec-21] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701 连接,会话id是834cf45d-7226-cb5e-17c8-05b0bcf18362,异常信息:null!
+2019-12-31 18:41:51.850  INFO 10008 --- [http-nio-9070-exec-12] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701 连接,会话id是b6209503-ab03-6607-d48f-6c4fbe7019dd,异常信息:null!
+2019-12-31 18:41:51.849  INFO 10008 --- [http-nio-9070-exec-19] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701 连接,会话id是ab024961-1d66-01ea-abb5-deb8f01e917d,异常信息:null!
+2019-12-31 18:41:51.853  INFO 10008 --- [http-nio-9070-exec-10] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701 连接,会话id是4e109e6e-2370-29e5-6b77-6f4455d8e790,异常信息:null!
+2019-12-31 18:41:51.852  INFO 10008 --- [http-nio-9070-exec-5] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701 连接,会话id是20a2d433-1319-369c-99e2-95bb026d5282,异常信息:null!
+2019-12-31 18:41:51.849  INFO 10008 --- [http-nio-9070-exec-9] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701 连接,会话id是6ddf736f-2c4a-a4ec-061b-8db1d06be3ee,异常信息:null!
+2019-12-31 18:41:51.849  INFO 10008 --- [http-nio-9070-exec-16] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701 连接,会话id是c6b0f347-0fb1-8cd2-4859-cb0f613434fe,异常信息:null!
+2019-12-31 18:41:51.852  INFO 10008 --- [http-nio-9070-exec-3] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701 连接,会话id是28bf94df-2666-eefe-130a-5b4f11e8d0b9,异常信息:null!
+2019-12-31 18:41:51.853  INFO 10008 --- [http-nio-9070-exec-7] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701 连接,会话id是ee794f3a-b8f9-e19c-b325-7f3db038a1cd,异常信息:null!
+2019-12-31 18:41:51.856  INFO 10008 --- [http-nio-9070-exec-14] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接15013670701
+2019-12-31 18:41:51.853  INFO 10008 --- [http-nio-9070-exec-1] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701 连接,会话id是2f5ac328-6410-2678-35c2-b351d512c151,异常信息:null!
+2019-12-31 18:41:51.855  INFO 10008 --- [http-nio-9070-exec-2] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接15013670701
+2019-12-31 18:41:51.856  INFO 10008 --- [http-nio-9070-exec-16] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接15013670701
+2019-12-31 18:41:51.856  INFO 10008 --- [http-nio-9070-exec-17] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接15013670701
+2019-12-31 18:41:51.857  INFO 10008 --- [http-nio-9070-exec-17] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701的会话id是b79dbf57-e3a0-d470-1570-6a88be4acfee的连接已断开
+2019-12-31 18:41:51.852  INFO 10008 --- [http-nio-9070-exec-6] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701 连接,会话id是ca8f46cb-1e6b-cc2c-49c1-15475c110c7a,异常信息:null!
+2019-12-31 18:41:51.853  INFO 10008 --- [http-nio-9070-exec-8] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701 连接,会话id是7da972a4-6c6b-8629-cd09-1023a7cb7e36,异常信息:null!
+2019-12-31 18:41:51.850  INFO 10008 --- [http-nio-9070-exec-15] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701 连接,会话id是20b3a476-1104-42c1-943a-0b0737d1566e,异常信息:null!
+2019-12-31 18:41:51.857  INFO 10008 --- [http-nio-9070-exec-5] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接15013670701
+2019-12-31 18:41:51.857  INFO 10008 --- [http-nio-9070-exec-22] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接15013670701
+2019-12-31 18:41:51.857  INFO 10008 --- [http-nio-9070-exec-12] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接15013670701
+2019-12-31 18:41:51.857  INFO 10008 --- [http-nio-9070-exec-23] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接15013670701
+2019-12-31 18:41:51.859  INFO 10008 --- [http-nio-9070-exec-22] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701的会话id是59dcdcfb-2fd5-b95a-705b-33e9f72014b1的连接已断开
+2019-12-31 18:41:51.859  INFO 10008 --- [http-nio-9070-exec-23] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701的会话id是a8636f19-f6ee-0f6f-ce80-9f4663593f15的连接已断开
+2019-12-31 18:41:51.858  INFO 10008 --- [http-nio-9070-exec-24] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接15013670701
+2019-12-31 18:41:51.859  INFO 10008 --- [http-nio-9070-exec-5] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701的会话id是20a2d433-1319-369c-99e2-95bb026d5282的连接已断开
+2019-12-31 18:41:51.857  INFO 10008 --- [http-nio-9070-exec-11] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接15013670701
+2019-12-31 18:41:51.860  INFO 10008 --- [http-nio-9070-exec-24] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701的会话id是38423b73-43e2-0668-1e75-3ed380442dc1的连接已断开
+2019-12-31 18:41:51.860  INFO 10008 --- [http-nio-9070-exec-11] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701的会话id是73c2961f-351c-73aa-9a2f-7fe744e75783的连接已断开
+2019-12-31 18:41:51.858  INFO 10008 --- [http-nio-9070-exec-16] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701的会话id是c6b0f347-0fb1-8cd2-4859-cb0f613434fe的连接已断开
+2019-12-31 18:41:51.858  INFO 10008 --- [http-nio-9070-exec-6] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接15013670701
+2019-12-31 18:41:51.862  INFO 10008 --- [http-nio-9070-exec-1] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接15013670701
+2019-12-31 18:41:51.862  INFO 10008 --- [http-nio-9070-exec-8] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接15013670701
+2019-12-31 18:41:51.862  INFO 10008 --- [http-nio-9070-exec-6] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701的会话id是ca8f46cb-1e6b-cc2c-49c1-15475c110c7a的连接已断开
+2019-12-31 18:41:51.862  INFO 10008 --- [http-nio-9070-exec-1] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701的会话id是2f5ac328-6410-2678-35c2-b351d512c151的连接已断开
+2019-12-31 18:41:51.859  INFO 10008 --- [http-nio-9070-exec-14] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701的会话id是459a9882-3391-468e-7ac6-8384daf91433的连接已断开
+2019-12-31 18:41:51.855  INFO 10008 --- [http-nio-9070-exec-18] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接15013670701
+2019-12-31 18:41:51.863  INFO 10008 --- [http-nio-9070-exec-21] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接15013670701
+2019-12-31 18:41:51.863  INFO 10008 --- [http-nio-9070-exec-18] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701的会话id是0053fb4d-9e43-a4e9-32c8-e0ae5d25f6c8的连接已断开
+2019-12-31 18:41:51.863  INFO 10008 --- [http-nio-9070-exec-21] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701的会话id是834cf45d-7226-cb5e-17c8-05b0bcf18362的连接已断开
+2019-12-31 18:41:51.859  INFO 10008 --- [http-nio-9070-exec-15] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接15013670701
+2019-12-31 18:41:51.863  INFO 10008 --- [http-nio-9070-exec-3] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接15013670701
+2019-12-31 18:41:51.859  INFO 10008 --- [http-nio-9070-exec-12] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701的会话id是b6209503-ab03-6607-d48f-6c4fbe7019dd的连接已断开
+2019-12-31 18:41:51.859  INFO 10008 --- [http-nio-9070-exec-2] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701的会话id是1d57f79a-9ea4-c12d-d17b-aa2943f1df56的连接已断开
+2019-12-31 18:41:51.855  INFO 10008 --- [http-nio-9070-exec-20] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接15013670701
+2019-12-31 18:41:51.864  INFO 10008 --- [http-nio-9070-exec-15] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701的会话id是20b3a476-1104-42c1-943a-0b0737d1566e的连接已断开
+2019-12-31 18:41:51.862  INFO 10008 --- [http-nio-9070-exec-8] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701的会话id是7da972a4-6c6b-8629-cd09-1023a7cb7e36的连接已断开
+2019-12-31 18:41:51.864  INFO 10008 --- [http-nio-9070-exec-7] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接15013670701
+2019-12-31 18:41:51.864  INFO 10008 --- [http-nio-9070-exec-3] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701的会话id是28bf94df-2666-eefe-130a-5b4f11e8d0b9的连接已断开
+2019-12-31 18:41:51.864  INFO 10008 --- [http-nio-9070-exec-19] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接15013670701
+2019-12-31 18:41:51.868  INFO 10008 --- [http-nio-9070-exec-7] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701的会话id是ee794f3a-b8f9-e19c-b325-7f3db038a1cd的连接已断开
+2019-12-31 18:41:51.864  INFO 10008 --- [http-nio-9070-exec-20] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701的会话id是2cdf4f67-533e-18cf-9d04-4a979133ede0的连接已断开
+2019-12-31 18:41:51.869  INFO 10008 --- [http-nio-9070-exec-19] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701的会话id是ab024961-1d66-01ea-abb5-deb8f01e917d的连接已断开
+2019-12-31 18:41:51.864  INFO 10008 --- [http-nio-9070-exec-10] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接15013670701
+2019-12-31 18:41:51.864  INFO 10008 --- [http-nio-9070-exec-4] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接15013670701
+2019-12-31 18:41:51.864  INFO 10008 --- [http-nio-9070-exec-13] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接15013670701
+2019-12-31 18:41:51.869  INFO 10008 --- [http-nio-9070-exec-10] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701的会话id是4e109e6e-2370-29e5-6b77-6f4455d8e790的连接已断开
+2019-12-31 18:41:51.869  INFO 10008 --- [http-nio-9070-exec-4] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701的会话id是0507bd3a-6051-0270-73bd-eb1a2817d676的连接已断开
+2019-12-31 18:41:51.865  INFO 10008 --- [http-nio-9070-exec-9] c.t.i.p.a.c.w.manager.SocketManager      :  --> 移除连接15013670701
+2019-12-31 18:41:51.869  INFO 10008 --- [http-nio-9070-exec-13] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701的会话id是7486f4a6-b7ce-8651-4d14-b55dda662051的连接已断开
+2019-12-31 18:41:51.870  INFO 10008 --- [http-nio-9070-exec-9] c.t.i.p.a.c.w.h.AuthWebSocketHandler     :  --> 15013670701的会话id是6ddf736f-2c4a-a4ec-061b-8db1d06be3ee的连接已断开
+2019-12-31 18:48:16.308  INFO 13520 --- [restartedMain] c.tim.iot.platform.auth.AuthApplication  : Starting AuthApplication on Tim-WJ with PID 13520 (E:\workspace\idea\iot-platform\iot-auth-server\target\classes started by tellt in E:\workspace\idea\iot-platform)
+2019-12-31 18:48:16.310  INFO 13520 --- [restartedMain] c.tim.iot.platform.auth.AuthApplication  : No active profile set, falling back to default profiles: default
+2019-12-31 18:48:16.340  INFO 13520 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-12-31 18:48:16.340  INFO 13520 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-12-31 18:48:17.410  INFO 13520 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9070 (http)
+2019-12-31 18:48:17.427  INFO 13520 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-31 18:48:17.427  INFO 13520 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-12-31 18:48:17.432  INFO 13520 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\tellt\AppData\Local\Android\sdk\platform-tools\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Go\bin;C:\Program Files\nodejs\;F:\Tools\androidStudio\android-ndk-r16b\;D:\maven3\bin\;C:\Users\tellt\AppData\Local\Android\Sdk\;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Users\tellt\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\tellt\AppData\Local\Programs\Python\Python37\;C:\Users\tellt\AppData\Local\Microsoft\WindowsApps;d:\go\workspace\bin;C:\Users\tellt\AppData\Roaming\npm;;.]
+2019-12-31 18:48:17.498  INFO 13520 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/auth]   : Initializing Spring embedded WebApplicationContext
+2019-12-31 18:48:17.498  INFO 13520 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1158 ms
+2019-12-31 18:48:17.658  INFO 13520 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-31 18:48:17.770  WARN 13520 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2019-12-31 18:48:17.802  INFO 13520 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/auth]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-31 18:48:17.803  INFO 13520 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-31 18:48:17.806  INFO 13520 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2019-12-31 18:48:17.808  INFO 13520 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9070 (http) with context path '/auth'
+2019-12-31 18:48:17.810  INFO 13520 --- [restartedMain] c.tim.iot.platform.auth.AuthApplication  : Started AuthApplication in 1.733 seconds (JVM running for 2.294)

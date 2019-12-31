@@ -10,6 +10,8 @@ public class Auth {
         @JSONField(name = "deviceId")
         private String deviceId;
         private String account;
+        @JSONField(name = "authAt")
+        private Long authAt;
     }
 
     @Data

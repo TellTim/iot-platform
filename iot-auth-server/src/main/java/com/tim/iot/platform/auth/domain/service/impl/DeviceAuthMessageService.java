@@ -13,7 +13,8 @@ public class DeviceAuthMessageService implements IDeviceAuthMessageService {
     private IWebSocketSessionRepo webSocketSessionRepo;
 
     @Override
-    public void sendAuthSuccess(String deviceId, String account) throws IOException {
-        webSocketSessionRepo.get(deviceId).sendMessage(new TextMessage(account));
+    public void sendAuthSuccess(String deviceId, String account,Long authAt) throws IOException {
+        String message = String.format("confim#%s#%s",account,String.valueOf(authAt));
+        webSocketSessionRepo.get(deviceId).sendMessage(new TextMessage(message));
     }
 }

@@ -22,7 +22,7 @@ public class AuthController {
     @ResponseBody
     public Auth.Result success(@RequestBody Auth.Param param){
         try {
-            deviceMessageService.sendAuthSuccess(param.getDeviceId(),param.getAccount());
+            deviceMessageService.sendAuthSuccess(param.getDeviceId(),param.getAccount(),param.getAuthAt());
         } catch (Exception e) {
             log.error("下发消息异常"+e.getMessage());
         }

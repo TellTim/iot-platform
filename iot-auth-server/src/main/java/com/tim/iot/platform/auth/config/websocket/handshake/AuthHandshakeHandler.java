@@ -26,6 +26,7 @@ public class AuthHandshakeHandler extends DefaultHandshakeHandler {
             HttpServletRequest httpRequest = servletServerHttpRequest.getServletRequest();
             final String deviceId = httpRequest.getParameter("deviceId");
             if (StringUtils.isEmpty(deviceId)) {
+                log.warn(" --> ", "deviceId is null");
                 return null;
             }
             if (webSocketSessionRepo.get(deviceId) != null) {
