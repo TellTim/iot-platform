@@ -28,7 +28,7 @@ public class AuthHandshakeInterceptor implements HandshakeInterceptor {
             HttpServletRequest httpRequest = servletServerHttpRequest.getServletRequest();
             final String deviceId = httpRequest.getParameter("deviceId");
             if (StringUtils.isNotEmpty(deviceId)) {
-                log.info(" --> 即将握手，设备id是 is {}");
+                log.info(" --> 即将握手，设备id是 is {}",deviceId);
                 return true;
             }
         }
