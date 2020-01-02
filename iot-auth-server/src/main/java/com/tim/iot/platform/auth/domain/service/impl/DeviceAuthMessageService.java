@@ -17,7 +17,7 @@ public class DeviceAuthMessageService implements IDeviceAuthMessageService {
     @Override
     public void sendAuthSuccess(String deviceId, String account,Long authAt) throws IOException {
         String message = String.format("confirm#%s#%s",account,String.valueOf(authAt));
-        log.debug("ddd "+message);
+        log.info("sendAuthSuccess: {}",message);
         webSocketSessionRepo.get(deviceId).sendMessage(new TextMessage(message));
     }
 }

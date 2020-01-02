@@ -28,6 +28,4 @@ public class AuthController {
         }
         return Auth.Result.buildOk();
     }
-
-
 }
