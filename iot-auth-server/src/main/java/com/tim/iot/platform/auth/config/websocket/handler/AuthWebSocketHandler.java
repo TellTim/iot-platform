@@ -120,7 +120,7 @@ public class AuthWebSocketHandler implements WebSocketHandler {
         Principal principal = session.getPrincipal();
         if (principal != null) {
             webSocketSessionRepo.remove(principal.getName());
-            log.info(" --> {}的会话id是{}的连接已断开", principal.getName(), session.getId());
+            log.info(" --> 已断开{}的会话的连接", principal.getName());
         } else {
             log.warn(" --> 会话id是{}的连接已断开", session.getId());
         }
