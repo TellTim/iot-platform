@@ -66,9 +66,19 @@ public class AuthWebSocketHandler implements WebSocketHandler {
             handleTextMessage(session, (TextMessage) message);
         } else if (message instanceof PingMessage) {
             handlePingMessage(session, (PingMessage) message);
-        } else {
+        }
+        else if(message instanceof BinaryMessage){
+            handleBinaryMessage(session,(BinaryMessage)message);
+        }else {
             log.error(" --> 收到错误格式的消息");
             session.close(CloseStatus.NOT_ACCEPTABLE.withReason("messages not supported"));
+        }
+    }
+
+    private void handleBinaryMessage(WebSocketSession session, BinaryMessage message) {
+        Principal principal = session.getPrincipal();
+        if (principal != null) {
+            log.info(" --> 收到{}的消息:{}", principal.getName(), message.getPayload().toString());
         }
     }
 
@@ -91,6 +101,7 @@ public class AuthWebSocketHandler implements WebSocketHandler {
         } catch (IOException e) {
             log.error(" --> 发送pong消息异常" + e.getMessage());
         }
+
     }
 
 
