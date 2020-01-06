@@ -1,5 +1,6 @@
 package com.tim.iot.platform.auth.web;
 
+import com.tim.iot.platform.auth.config.aop.api.ApiVersion;
 import com.tim.iot.platform.auth.domain.service.IDeviceAuthMessageService;
 import com.tim.iot.platform.auth.web.protocol.Auth;
 import lombok.extern.slf4j.Slf4j;
@@ -18,7 +19,19 @@ public class AuthController {
         this.deviceMessageService = deviceMessageService;
     }
 
-    @PostMapping("/success")
+    /**
+     * 可用于检查服务器是否瘫痪
+     *
+     * @return String
+     */
+    @GetMapping("/test")
+    public String test() {
+        log.info("alive test");
+        return "alive";
+    }
+
+    @ApiVersion(1)
+    @PostMapping("/{version}/success")
     @ResponseBody
     public Auth.Result success(@RequestBody Auth.Param param){
         try {
