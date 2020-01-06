@@ -10,13 +10,37 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>iot-auth-server</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-websocket</artifactId>
         </dependency>
     </dependencies>
+
+    <profiles>
+        <profile>
+            <id>dev</id>
+            <properties>
+                <profile.env>dev</profile.env>
+            </properties>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+        </profile>
+        <profile>
+            <id>local</id>
+            <properties>
+                <profile.env>local</profile.env>
+            </properties>
+        </profile>
+        <profile>
+            <id>c2</id>
+            <properties>
+                <profile.env>c2</profile.env>
+            </properties>
+        </profile>
+    </profiles>
 
     <build>
         <plugins>
@@ -32,7 +56,18 @@
                 </executions>
             </plugin>
         </plugins>
-        <finalName>${project.artifactId}-${project.version}</finalName>
+        <resources>
+            <resource>
+                <directory>src/main/filters/${profile.env}</directory>
+                <includes>
+                    <include>*.properties</include>
+                </includes>
+            </resource>
+            <resource>
+                <directory>src/main/resources</directory>
+            </resource>
+        </resources>
+        <finalName>${project.artifactId}-${profile.env}-${project.version}</finalName>
     </build>
 
 </project>
