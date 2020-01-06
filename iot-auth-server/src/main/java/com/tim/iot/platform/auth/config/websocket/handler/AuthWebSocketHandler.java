@@ -78,7 +78,7 @@ public class AuthWebSocketHandler implements WebSocketHandler {
     private void handleBinaryMessage(WebSocketSession session, BinaryMessage message) {
         Principal principal = session.getPrincipal();
         if (principal != null) {
-            log.info(" --> 收到{}的消息:{}", principal.getName(), message.getPayload().toString());
+            log.info(" --> 收到{}的消息:{}", principal.getName(), message.getPayload());
         }
     }
 

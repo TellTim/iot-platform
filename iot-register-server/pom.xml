@@ -30,6 +30,29 @@
         </dependency>
     </dependencies>
 
+    <profiles>
+        <profile>
+            <id>dev</id>
+            <properties>
+                <profile.env>dev</profile.env>
+            </properties>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+        </profile>
+        <profile>
+            <id>local</id>
+            <properties>
+                <profile.env>local</profile.env>
+            </properties>
+        </profile>
+        <profile>
+            <id>c2</id>
+            <properties>
+                <profile.env>c2</profile.env>
+            </properties>
+        </profile>
+    </profiles>
 
     <build>
         <plugins>
@@ -51,7 +74,8 @@
                 <version>${mybatis.generator.version}</version>
                 <configuration>
                     <overwrite>true</overwrite>
-                    <configurationFile>${project.basedir}/src/main/resources/mybatis/mybatis-generatorConfig.xml
+                    <configurationFile>
+                        ${project.basedir}/src/main/filters/${profile.env}/${profile.env}-mybatisGeneratorConfig.xml
                     </configurationFile>
                 </configuration>
                 <dependencies>
@@ -66,6 +90,12 @@
 
         <resources>
             <resource>
+                <directory>src/main/filters/${profile.env}</directory>
+                <includes>
+                    <include>*.properties</include>
+                </includes>
+            </resource>
+            <resource>
                 <directory>src/main/resources</directory>
                 <excludes>
                     <exclude>mybatis/mybatis-generatorConfig.xml</exclude>
@@ -73,7 +103,7 @@
                 </excludes>
             </resource>
         </resources>
-        <finalName>${project.artifactId}-${project.version}}</finalName>
+        <finalName>${project.artifactId}-${profile.env}-${project.version}</finalName>
     </build>
 
 </project>
