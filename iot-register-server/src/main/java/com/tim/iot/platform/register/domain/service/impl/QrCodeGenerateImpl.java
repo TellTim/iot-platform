@@ -1,9 +1,7 @@
 package com.tim.iot.platform.register.domain.service.impl;
 
 import com.tim.iot.platform.register.domain.service.IQrCodeGenerate;
-import com.tim.iot.platform.register.web.protocol.exception.NotSupportDeviceTypeException;
-import com.tim.iot.platform.register.domain.service.IQrCodeGenerate;
-import com.tim.iot.platform.register.web.protocol.exception.NotSupportDeviceTypeException;
+import com.tim.iot.platform.register.web.register.protocol.exception.NotSupportDeviceTypeException;
 
 
 public class QrCodeGenerateImpl implements IQrCodeGenerate {

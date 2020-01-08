@@ -4,7 +4,7 @@ import com.tim.iot.platform.register.domain.model.entity.Device;
 import com.tim.iot.platform.register.domain.repo.IDeviceRepo;
 import com.tim.iot.platform.register.domain.service.IDeviceService;
 import com.tim.iot.platform.register.domain.service.IQrCodeGenerate;
-import com.tim.iot.platform.register.web.protocol.exception.NotSupportDeviceTypeException;
+import com.tim.iot.platform.register.web.register.protocol.exception.NotSupportDeviceTypeException;
 
 public class DeviceServiceImpl implements IDeviceService {
 

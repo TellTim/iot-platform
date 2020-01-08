@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @Slf4j
-@RequestMapping(value = "confirm")
+@RequestMapping(value = "api")
 public class AuthController {
 
     private final IDeviceAuthMessageService deviceMessageService;
@@ -31,7 +31,7 @@ public class AuthController {
     }
 
     @ApiVersion(1)
-    @PostMapping("/{version}/success")
+    @PostMapping("/{version}/confirm")
     @ResponseBody
     public Auth.Result success(@RequestBody Auth.Param param){
         try {

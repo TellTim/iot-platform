@@ -1,8 +1,7 @@
 package com.tim.iot.platform.register.domain.service;
 
 import com.tim.iot.platform.register.domain.model.entity.Device;
-import com.tim.iot.platform.register.web.protocol.exception.NotSupportDeviceTypeException;
-import com.tim.iot.platform.register.web.protocol.exception.NotSupportDeviceTypeException;
+import com.tim.iot.platform.register.web.register.protocol.exception.NotSupportDeviceTypeException;
 
 public interface IDeviceService {
     Device findByDeviceId(String deviceId);

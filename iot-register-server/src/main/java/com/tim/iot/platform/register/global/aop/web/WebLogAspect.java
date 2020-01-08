@@ -45,8 +45,6 @@ public class WebLogAspect {
             logStr += "\n[url   ]:" + request.getRequestURI();
             logStr += "\n[method]:" + joinPoint.getSignature().getDeclaringType().getSimpleName() + "." + joinPoint.getSignature().getName();
 
-            String[] params = ((CodeSignature) joinPoint.getStaticPart().getSignature()).getParameterNames();
-
             Object[] args = joinPoint.getArgs();
             int i = 0;
             for (Object arg : args) {
